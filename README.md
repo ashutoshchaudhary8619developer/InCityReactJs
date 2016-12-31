@@ -6,7 +6,7 @@ React JS is fastest Js library out there. Much faster than Angular JS.
 Kindly follow all the steps mentioned in order to use the app.
 
 This is the app i made for in city search in React JS, it Basically send an emails to the clients. Its a multi step form based on React JS.
-It has type ahead features, you select your profession form, Also it responsive for the mobile phones as well.  To Run it first you clone from here.  Run npm start in the root folder. and then after it has finished. you can run it on localhost:8000 in your browser. Thanks Ashutosh Chaudhary, ashutosh.chaudhary.8619@gmail.com, web developer 3-4 years experience.
+It has type ahead features, you select your profession form, Also it responsive for the mobile phones as well.  To Run it first you clone from here.  Run npm start in the root folder. and then after it has finished. you can run it on localhost:8000 in your browser. Thanks Ashutosh Chaudhary, ashutosh.chaudhary.8619@gmail.com, web developer 4 years experience.
 in the main root folder you rund
 
 npm start
