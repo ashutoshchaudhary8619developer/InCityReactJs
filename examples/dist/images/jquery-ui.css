@@ -1,0 +1,4421 @@
+
+   
+
+ 
+
+    <html>
+	<head>
+		  
+   		<!-- Start Include css & javascript -->
+   		<meta charset="UTF-8">
+   		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0" />
+   		   		
+         		      		    <title id="pageTitle12"> InCitySearch </title>
+      			
+      					  	
+	  
+	  	<link rel="stylesheet" type="text/css" href="/assets/67b41ab7/jui/css/base/jquery-ui.css" />
+	  	<!--<script type="text/javascript" src="/assets/67b41ab7/jquery.min.js"></script>
+	  	<script type="text/javascript" src="/assets/67b41ab7/jquery.yiiactiveform.js"></script>-->
+	  	<link rel="stylesheet" href="/themes/web/css/style.css" type="text/css" media="all" />
+	  	<link type="text/css" href="/themes/web/css/mediaqueries.css" rel="stylesheet"  media="all"/>
+	  	<link type="text/css" href="/themes/web/css/mediaMobile.css" rel="stylesheet"  media="all"/>
+	  	<link type="text/css" href="/themes/web/css/normalize.css" rel="stylesheet" />
+	  	<link type="text/css" href="/themes/web/css/app.css" rel="stylesheet" />
+	  	<!--<link rel="shortcut icon" href="/themes/web/images/logo.ico" type="image/x-icon">-->
+	  	<link rel="shortcut icon" href="/themes/web/images/icons/fav_icon1.png" type="image/x-icon">
+	  	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" />
+	  	<link type="text/css" rel="stylesheet" href="/themes/web/css/stylelogin.css" />
+	  	<link rel="stylesheet" href="http://jqueryvalidation.org/files/demo/site-demos.css">
+	  	<link type="text/css" rel="stylesheet" href="/themes/web/css/cmsstyle.css" />
+	   	<link type="text/css" rel="stylesheet" href="/themes/web/css/cmsreset.css" />
+	   	<link type="text/css" rel="stylesheet" href="/themes/web/css/contactstyle.css" />
+		
+	    <!---app css---->
+		<link type="text/css" rel="stylesheet" href="/themes/web/footerPageCss/main.css" />  
+    <link type="text/css" rel="stylesheet" href="/themes/web/footerPageCss/font-awesome.min.css" />
+		<link type="text/css" href="/themes/web/scrollcss/rangecalendar.css" rel="stylesheet" />
+	 	<link type="text/css" href="/themes/web/scrollcss/rangestyle.css" rel="stylesheet" />
+	 	<link type="text/css" href="/themes/web/scrollbarcss/jquery.mCustomScrollbar.css" rel="stylesheet" />
+		
+		
+		
+	   	<!---app css end---->
+		   <!-- removed 
+       additional-methods.min.js
+       jquery.mousewheel
+       jquery.fancybox
+       -->
+	  		  	
+	  		<!--<script type="text/javascript" src="/themes/web/js/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+		  	<script type="text/javascript" src="/themes/web/js/jquery-time/jquery.plugin.js"></script>
+	     	<script type="text/javascript" src="/themes/web/js/jquery-time/jquery.timeentry.js"></script>
+         <script type="text/javascript" src="/themes/web/js/source/jquery.fancybox.js?v=2.1.5"></script>-->
+		  	
+		  	
+		  	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		  	<!--<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>-->
+		  	<script type="text/javascript" src="/themes/web/js/jquery.leanModal.min.js"></script>
+		  	<script type="text/javascript" src="/themes/web/cmsjs/modernizr.js"></script>
+			<script type="text/javascript" src="/themes/web/cmsjs/velocity.min.js"></script>
+		  	<script type="text/javascript" src="/themes/web/cmsjs/main.js"></script>
+		  	<script type="text/javascript" src="/themes/web/js/jquery.plugin.js"></script>
+		  	<script type="text/javascript" src="/themes/web/js/jquery.timeentry.js"></script>
+		  	<script src="http://jqueryvalidation.org/files/dist/jquery.validate.min.js"></script>
+		  	<!--<script src="http://jqueryvalidation.org/files/dist/additional-methods.min.js"></script>-->
+		  	
+		  	<script src='https://connect.facebook.net/en_US/all.js'></script>
+		   	
+		   	<!-- app javascript -->
+		  	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+		  	<script type="text/javascript" src="/themes/web/scrolljs/jquery.rangecalendar.js"></script>
+		   	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+		   	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.7.0/moment-with-langs.min.js"></script>
+		   	
+		  	<script type="text/javascript" src="/themes/web/sliderjs/jssor.js"></script>
+		 	<script type="text/javascript" src=" /themes/web/sliderjs/jssor.slider.js"></script>
+			<!-- app end javascript -->  
+	
+			<script type="text/javascript" src="/themes/web/js/custom/uberMenu.js"></script>
+						
+			<script asynch defer type="text/javascript" src="/themes/web/scrollbarjs/jquery.mCustomScrollbar.concat.min.js"></script>
+			
+			<script src="http://malsup.github.com/jquery.form.js"></script> 
+		
+			<script>
+			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			  ga('create', 'UA-5843872-36', 'auto');
+			  ga('send', 'pageview');
+
+			</script>
+			
+			<script>
+				var aboutus='';
+				var baseurl="http://incitysearch.com/api/";
+				var local = "aboutus=" +  aboutus;
+				var Url = baseurl + 'about';
+				$.post( Url, local ).done(function( responseAbout ) {
+
+				var responseAbouts =JSON.parse(responseAbout);
+				console.log(responseAbouts);
+				$("#about_content").html(responseAbouts.description);
+				$("#about_title").html(responseAbouts.title);
+		
+				})
+			
+				var team='';
+				var baseurl="http://incitysearch.com/api/";
+				var teamlocal = "team=" +  team;
+				var teamUrl = baseurl + 'team';
+				$.post( teamUrl, teamlocal ).done(function( responseTeam ) {
+
+				var responseTeams =JSON.parse(responseTeam);
+				console.log(responseTeams);
+		
+				$("#Kdesignation").html(responseTeams.team[0].designation);
+				$("#Kname").html(responseTeams.team[0].name);
+				$("#nname").html(responseTeams.team[3].name);
+		
+				$("#ndesignation").html(responseTeams.team[3].designation);
+			
+				$("#rname").html(responseTeams.team[1].name);
+		
+				$("#rdesignation").html(responseTeams.team[1].designation);
+			
+				$("#pname").html(responseTeams.team[2].name);
+		
+				$("#pdesignation").html(responseTeams.team[2].designation);
+				var imageDefaultPath="/themes/web/images/";
+		
+				$("#kimage").attr('src',imageDefaultPath+responseTeams.team[0].image_url);
+				$("#rimage").attr('src',imageDefaultPath+responseTeams.team[1].image_url);
+				$("#pimage").attr('src',imageDefaultPath+responseTeams.team[2].image_url);
+				$("#nimage").attr('src',imageDefaultPath+responseTeams.team[3].image_url);
+
+			
+			
+
+			
+				})
+
+				var privacy='';
+				var baseurl="http://incitysearch.com/api/";
+				var privacylocal = "privacy=" +  privacy;
+				var privacyUrl = baseurl + 'privacy';
+				$.post( privacyUrl, privacylocal ).done(function( responseprivacy ) {
+				console.log(responseprivacy);
+				var responseprivacys =JSON.parse(responseprivacy);
+
+				$("#privacytitle").html(responseprivacys.title);
+				$("#privacyDescription").html(responseprivacys.description);
+				})
+			
+				var term='';
+				var baseurl="http://incitysearch.com/api/";
+				var termlocal = "term=" +  term;
+				var termUrl = baseurl + 'term';
+				$.post( termUrl, termlocal ).done(function( responseterm ) {
+				console.log(responseterm);
+				var responseterms =JSON.parse(responseterm);
+
+				$("#term_title").html(responseterms.title);
+				$("#term_description").html(responseterms.description);
+				})
+			
+			</script>
+
+
+
+			
+			<script>
+				function contact()
+				{
+					var novalid=$("#ff").valid();
+					if(novalid==true)
+					{
+						var username=document.getElementById("name").value;
+						var emailId=document.getElementById("email").value;
+						var phone=document.getElementById("phone").value;
+						var contacttext=document.getElementById("contacttext").value;
+			
+						$.ajax(
+			            {
+			                url: '/contactFeedback',
+			                type: 'POST',
+			                data: {username: username,emailId:emailId,phone:phone,contacttext:contacttext},
+			                success:function(data)
+			                {
+								$("#ff").html('<h2 style="color: green; font-size: 14px; text-align: center; width: 100%; margin-top: 17%;">We have received your contact request and will get back to you shortly.</h2>');
+			                },
+			                async: false
+			            });    
+					}
+				}
+			</script>
+
+
+
+	 		
+
+	<!-- Start Login PopUp Javascript -->
+	<script type="text/javascript">
+
+		
+		$(document).ready(function()
+		{
+	
+			if(typeof(Storage) !== "undefined") 
+	 		{
+	 			//alert(localStorage.getItem("user_save_id"));
+				if( localStorage.getItem("user_save_id") && localStorage.getItem("user_save_id") != "" )
+				{
+					var userId = localStorage.getItem("user_save_id");
+					$.ajax(
+					{
+						url: '/updateSessionData',
+						type: 'POST',
+						data: {userId: userId},
+						success:function(data)
+						{
+			
+						},
+						async: false
+					});	
+				}
+			}
+			//updateSessionData();
+			
+			//alert("hi"+"");
+			
+			//businessCity
+			$("#businessCity").change();
+			
+			validateCurrentCity("");
+			var currentCity = "";
+	
+			var currentUrl = document.URL;
+	
+			if( currentUrl.indexOf('passkey') > 0 )
+			{
+				var arrUrl = currentUrl.split("?");
+				window.location.href = arrUrl[0];
+			}
+	
+			if("Chandigarh" && "Chandigarh" != "")
+			{
+				currentCity = "Chandigarh";
+			}
+			
+			if( currentCity == '' )
+			{
+				if( currentUrl.indexOf('passkey') < 0 )
+				{
+				showCitySelectionPopUp(15);
+				}
+			}
+			else
+			{
+				$("#currentCity").html(currentCity);
+			}
+				
+			$(".time24").timeEntry({show24Hours: true, showSeconds: false});
+			
+			
+			$("input").blur(function()
+			{
+				return $(this).val($(this).val().trim());
+				
+			});
+			
+	
+		 	mysearch();
+		 	
+			$("input").attr('autocomplete', 'off');
+			
+			
+	
+			if("" != '' )
+			{
+				$("#divFlashMessageOuter").show();
+				$("#divFlashMessage").html("");
+				$("#divFlashMessageOuter").fadeOut(3500);
+				$.ajax({
+				 	url: '/resetFlashMessage',
+				 	type: 'POST',
+				 	//data: {keyword:keyword},
+				 	success:function(data)
+				 	{
+			
+				 	}
+				 });
+			}
+	
+			
+			
+		});
+		
+	  	
+		window.onload = function () 
+		{ 
+			if( $("#citySelectionPopUp").css('display') == 'block' )
+				$("#userSelectedCity").focus();
+		}
+		
+	
+
+		function updateSessionData()
+		{
+			$('#hidCurrentLocation').val($('#userSelectedCity').val());
+			
+			var currentCity = $('#hidCurrentLocation').val();
+			$.ajax(
+			{
+				url: '/updateSessionData',
+				type: 'POST',
+				data: {currentCity: currentCity},
+				success:function(data)
+				{
+			
+				},
+				async: false
+			});
+		}
+
+		function showCitySelectionPopUp(time)
+		{
+		
+		if(time ==  0){
+    $("#citySelectionPopUp").show();
+		$('.header_title').html('Select Your City');
+    }else{
+		 /*
+     setTimeout(function(){ 
+			$("#citySelectionPopUp").show();
+			$('.header_title').html('Select Your City');
+		 }, 15000);	
+		 */
+		 }
+		}
+		function searchCities()
+		{
+			var min_length = 0; // min caracters to display the autocomplete
+			var keyword = $('#userSelectedCity').val();
+
+			if (keyword.length > min_length) 
+			{
+				$.ajax({
+				 	url: '/popUp',
+				 	type: 'POST',
+				 	data: {keyword:keyword},
+				 	success:function(data)
+				 	{
+						if(data!="")
+						{
+							$('#showmap_list_id').show();
+							$('#showmap_list_id').html(data);
+						}
+				 	}
+				});
+			} 
+			else 
+			{
+				$('#showmap_list_id').hide();
+			}	
+		}
+
+		function selectCityFromList(item) 
+		{
+			$("#loadingCityMsg").show();
+			
+			$('#userSelectedCity').val(item);
+			$('#showmap_list_id').hide();
+
+		
+			
+			$("#buttonsave").click();
+		}	
+		
+		function updateUserLocation()
+		{
+			var cityName = $("#userSelectedCity").val();
+			
+			cityName = cityName.trim();
+			$("#userSelectedCity").val(cityName);
+			
+			if(cityName == '' )
+			{
+				if( "" != 'Tricity' ){
+        
+        
+					cityName = "";
+					
+				}else
+				{
+				
+					
+					$("#selectcity").focus();
+					$("#loadingCityMsg").fadeOut("slow");
+					return false;
+				}
+				if(cityName == '' )
+				{
+				
+					$("#selectcity").focus();
+					$("#loadingCityMsg").fadeOut("slow");
+					return false;
+				}
+				else
+				{
+					if( $("#citySelectionPopUp").css('display') == 'block' && $("#userSelectedCity").val() == '' )
+					{
+						
+						$("#selectcity").focus();
+						$("#loadingCityMsg").fadeOut("slow");
+						return false;
+					}
+				}
+					
+			}
+			else
+			{
+				if( validateCurrentCity(cityName) )
+				{
+					updateSessionData();
+					
+					var currentUrl = document.URL;
+					var arrUrl = currentUrl.split("incitysearch.com");
+					var mainUrl = arrUrl[0]+"incitysearch.com/";
+					var endUrl = arrUrl[1];
+					
+					if( currentUrl.indexOf('/search/') > -1 )
+					{
+						var arrEndUrl = endUrl.split('/');
+						var oldCity = arrEndUrl[1];
+						
+						if( cityName != oldCity )
+						{
+							window.location.href = mainUrl+cityName+"/"+arrEndUrl[2]+"/"+arrEndUrl[3];
+						}
+					}
+					else
+					{
+						var match = endUrl.match(new RegExp("/", 'g'));
+						var countSlashes = match ? match.length : 0;
+						
+						if( countSlashes < 4 )
+						{
+							var arrEndUrl = endUrl.split('/');
+							var oldCity = arrEndUrl[1];
+							if( cityName != oldCity )
+							{
+								window.location.href = mainUrl+cityName+"/"+arrEndUrl[2];
+							}
+						}
+					}
+							//alert(arrUrl[1]);			
+					//alert("incitysearch.com----------------"+mainUrl);return false;
+					if(1 in arrUrl && arrUrl[1] != '' && arrUrl[1] != '/' )
+					{
+						var endUrl = arrUrl[1];
+						var matchUrl = endUrl.match(new RegExp("/", 'g'));
+					
+						if( matchUrl && matchUrl.length > 2)
+						{
+							//location.reload();
+						document.getElementById("currentCity").innerHTML=cityName;
+						crosspopup();
+						}
+						else
+						{
+							window.location.href = mainUrl+cityName;
+						}
+					}
+					else
+						window.location.href = mainUrl+cityName;
+				}
+				else
+			 	{
+			 		$("#loadingCityMsg").fadeOut("slow");
+					return false;
+				}
+			}
+		}	
+		
+		function validateCurrentCity(cityName)
+		{
+		
+			var validCheck = 1;
+			$.ajax(
+			{
+			 	url: '/popUp',
+			 	type: 'POST',
+			 	data: {keyword:cityName, matchCondition: 'ExactMatch'},
+			 	success:function(data)
+			 	{
+					if( data == "" )
+					{
+						validCheck = 0;
+					}
+			 	},
+			 	async: false
+			});
+			 
+			if( validCheck == 0 )
+			{
+				showCitySelectionPopUp(15);
+			 	
+				$("#userSelectedCity").focus();
+				return false;
+			}
+			else
+		 	{
+				
+				
+				return true;
+			}
+		}
+
+		function initMap() 
+		{
+			var citylatitude = "";
+			var citylongitude = "";
+			
+			citylatitude = parseFloat("30.7399738");
+			citylongitude = parseFloat("76.7567368");
+			
+			//citylatitude = 30.7399738;
+			//citylongitude = 76.7567368;
+			
+			var myLatLng = {lat: citylatitude, lng: citylongitude};
+
+			var map = new google.maps.Map(document.getElementById('map-canvas'), 
+			{
+				zoom: 12,
+				center: myLatLng,
+				//disableDefaultUI: true,
+				mapTypeControl: true,
+				mapTypeControlOptions: {
+					style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
+					position: google.maps.ControlPosition.TOP_LEFT
+				},
+				zoomControl: true,
+				zoomControlOptions: {
+					style: google.maps.ZoomControlStyle.SMALL,
+					position: google.maps.ControlPosition.TOP_RIGHT
+				},
+				scaleControl: true,
+				streetViewControl: true,
+				streetViewControlOptions: {
+					position: google.maps.ControlPosition.TOP_LEFT
+				}
+				
+			});
+
+			var marker = new google.maps.Marker(
+			{
+				position: myLatLng,
+				map: map,
+				title: ''
+			});
+		}
+
+
+
+
+		function autocomplet() 
+		{
+			var min_length = 0; // min caracters to display the autocomplete
+		 	var keyword = $('#business').val();
+		  	var cities = $('#hidCurrentLocation').val();
+
+		 	if (keyword.length > min_length) 
+			{
+			 	$.ajax({
+			 		url: '/searchAjax',
+			 		type: 'POST',
+			 		data: {keyword:keyword,cities:cities},
+			 		success:function(data)
+			 		{
+			 			//var defaultListOption = '<li style="font-weight: bold; font-style: italic;" onclick="set_item(\''+keyword+'\')">"'+keyword+'"</li>';
+			 			//var defaultListOption = '<li style="color: #0E7CC8;" onclick="set_item(\''+keyword+'\')">'+keyword+'</li>';
+			 			var defaultListOption = '<li onclick="set_item(\''+keyword+'\')">'+keyword+'</li>';
+			 			
+			 			$('#business_list_id').show();
+			 			$('#business_list_id').html(defaultListOption+data);
+			 		}
+			 	});
+		 	} 
+			else 
+			{
+		 		$('#business_list_id').hide();
+		 	}
+		}
+
+		function set_item(item) 
+		{
+			$('#business').val(item);
+		 	$('#business_list_id').hide();
+		}
+
+		function autocompletlocation()
+		{
+		 	var min_length = 0; // min caracters to display the autocomplete
+		 	var keyword = $('#searchlocations').val();
+		 	keyword = keyword.trim();
+		 	
+			var cities = $('#hidCurrentLocation').val();
+		
+		 	if (keyword.length > min_length) 
+			{
+			 	$.ajax({
+			 		url: '/searchLocationAjax',
+			 		type: 'POST',
+			 		data: {keyword:keyword,cities:cities},
+			 		success:function(data)
+			 		{
+			 			//var defaultListOption = '<li style="font-weight: bold; font-style: italic;" onclick="locationset_item(\''+keyword+'\')">"'+keyword+'"</li>';
+			 			//var defaultListOption = '<li style="color: #0E7CC8;" onclick="locationset_item(\''+keyword+'\')">'+keyword+'</li>';
+		 				var defaultListOption = '<li style="min-width: 188px;" onclick="locationset_item(\''+keyword+'\')">'+keyword+'</li>';
+		 				
+			 			$('#location_list_id').show();
+			 			$('#location_list_id').html(defaultListOption+data);
+			 			//$('#searchlocations').val(keyword);
+			 		}
+			 	});
+		 	} 
+			else 
+			{
+		 		$('#location_list_id').hide();
+		 	}	
+		}
+
+		function locationset_item(item) 
+		{
+			$('#searchlocations').val(item);
+		 	$('#location_list_id').hide();
+		}
+
+		function loc(data)
+		{
+			data = data.trim();
+			var newdata = data;
+
+			while( newdata.indexOf(' ') > -1 )
+			{
+				newdata = newdata.replace(' ', '-');
+			}
+			window.location.href = "//"+newdata+"/searchResult";
+		}
+
+		function popularSearch(data)
+		{
+			data = data.trim();
+			var newdata = data;
+
+			$("#business").val(newdata);
+			validateAndSubmitForm();
+		}
+
+		function validateAndSubmitForm()
+		{
+			var businessService = $("#business").val();
+			var location = $("#searchlocations").val();
+			var price = $("#searchprices").val();
+			var searchString = '';
+			var cityFromLocation = '';
+			
+			if( businessService == '' && location == '' && price == '' )
+			{
+				alert('Please fill at least one of the search boxes.');
+				return false;
+			}
+			else
+			{
+				businessService = businessService.trim();	
+				location = location.trim();	
+				
+				if(businessService != '')
+				{
+					while( businessService.indexOf(' ') > -1 )
+					{
+						businessService = businessService.replace(' ', '-');
+					}
+					searchString = businessService;
+				}
+				if(location != '')
+				{
+					while( location.indexOf(', ') > -1 )
+					{
+						var arrLocation = location.split(', ');
+						location = arrLocation[0];
+						cityFromLocation = arrLocation[1];
+					}
+					while( location.indexOf(' ') > -1 )
+					{
+						location = location.replace(' ', '-');
+					}
+					if(businessService != '')
+						searchString = searchString + '+' + location;
+					else
+						searchString = location;
+				}
+				if(price != '')
+				{
+					price = price.replace(' ', '-');
+					searchString = searchString + '+' + price;
+				}
+
+				if( searchString.indexOf('+') == '0' )
+				{
+					searchString = searchString.substring(1);
+				}
+
+				if(cityFromLocation == "" )
+				{
+					document.getElementById('frmSearch').action = "//search/?q="+searchString;
+				}
+				else
+				{
+					document.getElementById('frmSearch').action = "/"+cityFromLocation+"/search/?q="+searchString;
+				}
+				document.getElementById('frmSearch').submit();
+			}
+		}
+
+		function showCategoryData(categoryPageUrl)
+		{
+			while( categoryPageUrl.indexOf('-') > -1 )
+			{
+				categoryPageUrl = categoryPageUrl.replace('-','.');
+			}
+			while( categoryPageUrl.indexOf(' ') > -1 )
+			{
+				categoryPageUrl = categoryPageUrl.replace(' ','-');
+			}
+
+			while( categoryPageUrl.indexOf('%20') > -1 )
+			{
+				categoryPageUrl = categoryPageUrl.replace('%20','-');
+			}
+			
+			while( categoryPageUrl.indexOf('%26') > -1 )
+			{
+				categoryPageUrl = categoryPageUrl.replace('%26','_');
+			}
+
+			categoryPageUrl = categoryPageUrl;
+			//alert(categoryPageUrl);return false;
+			window.location.href = categoryPageUrl;
+		}
+		
+		function showServiceData(servicePageUrl)
+		{
+			while( servicePageUrl.indexOf('-') > -1 )
+			{
+				servicePageUrl = servicePageUrl.replace('-','.');
+			}
+			while( servicePageUrl.indexOf(' ') > -1 )
+			{
+				servicePageUrl = servicePageUrl.replace(' ','-');
+			}
+
+			while( servicePageUrl.indexOf('%20') > -1 )
+			{
+				servicePageUrl = servicePageUrl.replace('%20','-');
+			}
+			
+			while( servicePageUrl.indexOf('%26') > -1 )
+			{
+				servicePageUrl = servicePageUrl.replace('%26','_');
+			}
+
+			servicePageUrl = servicePageUrl;
+			//alert(servicePageUrl);return false;
+			window.location.href = servicePageUrl;
+		}
+
+		function addBusiness()
+		{
+			if("bcgvhjv@hbvhkg.com" && "bcgvhjv@hbvhkg.com" != '' )
+			{
+				
+			}
+			else
+			{
+				$("#modal_trigger").click();
+			}
+		}
+		
+		function addNewBusiness()
+		{
+			openUberPopUp('listAddBusiness');
+		}
+		
+		function capitalizeText(elementId)
+		{
+			var elementValue = $("#"+elementId).val();
+			$("#"+elementId).val(elementValue.toLowerCase()); 
+			//$("#"+elementId).css('text-transform','lowercase');
+			$("#"+elementId).css('text-transform','capitalize');
+		}
+		
+		function saveBusiness()
+		{
+			$('body').scrollTop(0);
+			
+			$("#businessSaveError").html('');
+			$("#businessSaveError").removeClass('divErrorActive');
+			
+			$("#businessLoader").removeClass('divActive');
+			$("#businessLoader").addClass('divInactive');
+			
+			var businessName = $("#businessName").val();
+			var businessAddress = $("#businessAddress").val();
+			var businessCity = $("#businessCity").val();
+			var businessLocation = $("#businessLocation").val();
+			var businessEmail = $("#businessEmail").val();
+			var mobile1 = $("#mobile1").val();
+			var mobile2 = $("#mobile2").val();
+			var landline1 = $("#landline1").val();
+			var landline2 = $("#landline2").val();
+			var category = $("#category").val();
+			var categoryName = $("#category").find('option:selected').text();
+			
+			var tag1 = $("#tag1").val();
+			var tag2 = $("#tag2").val();
+			var tag3 = $("#tag3").val();
+			
+			businessName = businessName.replace(/[^a-zA-Z 0-9\n\r]+/g, '');
+			$("#businessName").val(businessName);
+			
+			while( businessName.indexOf('  ') > -1 )
+			{
+				businessName = businessName.replace('  ',' ');
+			}
+			businessName = businessName.replace(/\s\s+/g, ' ');
+			$("#businessName").val(businessName);
+			
+			if( businessAddress.indexOf(',') > -1 )
+			{
+				businessAddress = businessAddress.replace(/[,]/g,', ');
+				$("#businessAddress").val(businessAddress);
+			}
+			
+			while( businessAddress.indexOf(' ,') > -1 )
+			{
+				businessAddress = businessAddress.replace(' ,', ',');
+				$("#businessAddress").val(businessAddress);
+			}
+			if( businessAddress.indexOf('  ') > -1 )
+			{
+				businessAddress = businessAddress.replace(/\s\s+/g, ' ');
+				$("#businessAddress").val(businessAddress);
+			}
+			
+			businessEmail = businessEmail.replace(/\s\s+/g, ' ');
+			$("#businessEmail").val(businessEmail);
+						
+			$("input").removeClass('errorField');
+			$("select").removeClass('errorField');
+			
+			var strError = '';
+			
+			if( businessName == '' )
+			{
+				strError+= 'Please enter a name for the business being added.';
+				$("#businessName").addClass('errorField');
+				$("#businessName").focus();
+			}
+			else if( businessName.length < 3 )
+			{
+				strError+= 'Business name too short. Minimum 3 characters required.';
+				$("#businessName").addClass('errorField');
+				$("#businessName").focus();
+			}
+			else
+			{
+				businessName = businessName.trim();
+				
+				$.ajax(
+				{
+			 		url: '/checkBusinessExistance',
+			 		type: 'POST',
+			 		data: {businessName: businessName},
+			 		success:function(businessExistance)
+			 		{
+			 			if( businessExistance == 'True' )
+			 			{
+			 				strError+= 'The business with this name already exists. Please enter a different name.';
+							$("#businessName").addClass('errorField');
+							$("#businessName").focus();
+			 			}
+			 		},
+			 		async: false
+			 	});
+			}
+			
+			if( strError == '' )
+			{
+				if( businessAddress == '' )
+				{
+					strError+= 'Business Address field cannot be left blank.';
+					$("#businessAddress").addClass('errorField');
+					$("#businessAddress").focus();
+				}
+				else if( businessAddress.length < 5 )
+				{
+					strError+= 'Business address too short. Minimum 5 characters required.';
+					$("#businessAddress").addClass('errorField');
+					$("#businessAddress").focus();
+				}
+				else if( businessCity == '' )
+				{
+					strError+= 'Please select the business city.';
+					$("#businessCity").addClass('errorField');
+					$("#businessCity").focus();
+				}
+				else if( businessLocation == '' )
+				{
+					strError+= 'Please select a business location.';
+					$("#businessLocation").addClass('errorField');
+					$("#businessLocation").focus();
+				}
+				else if( businessEmail == '' )
+				{
+					strError+= 'Please enter your email id.';
+					$("#businessEmail").addClass('errorField');
+					$("#businessEmail").focus();
+				}
+				else
+				{
+					var emailRegex = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
+				
+		    		var validateEmail = emailRegex.test(businessEmail);
+		    		
+		    		if( validateEmail == false ) 
+				    {
+				        strError+= 'Please enter a valid email id.';
+						$("#businessEmail").addClass('errorField');
+						$("#businessEmail").focus();
+				    }
+				}
+			}
+			if( strError == '' )
+			{
+				/*if( mobile1 == '' )
+				{
+					strError+= 'Please enter your mobile number.';
+					$("#mobile1").addClass('errorField');
+					$("#mobile1").focus();
+				}
+				else if( landline1 == '' )
+				{
+					strError+= 'Please enter your business landline number.';
+					$("#landline1").addClass('errorField');
+					$("#landline1").focus();
+				}*/
+				if( mobile1 != '' && isNaN(mobile1) )
+				{
+					strError+= 'Only digits(0-9) are allowed in mobile number field.';
+					$("#mobile1").addClass('errorField');
+					$("#mobile1").focus();
+				}
+				else if( mobile1 != '' && mobile1.charAt(0) == '1' )
+				{
+					strError+= 'Please enter a valid mobile number.';
+					$("#mobile1").addClass('errorField');
+					$("#mobile1").focus();
+				}
+				else if( mobile2 != '' && isNaN(mobile2) )
+				{
+					strError+= 'Only digits(0-9) are allowed in mobile number field.';
+					$("#mobile2").addClass('errorField');
+					$("#mobile2").focus();
+				}
+				else if( mobile2 != '' && mobile2.charAt(0) == '1' )
+				{
+					strError+= 'Please enter a valid mobile number.';
+					$("#mobile2").addClass('errorField');
+					$("#mobile2").focus();
+				}
+				else if( landline1 != '' && isNaN(landline1) )
+				{
+					strError+= 'Only digits(0-9) are allowed in landline number field.';
+					$("#landline1").addClass('errorField');
+					$("#landline1").focus();
+				}
+				else if( landline2 != '' && isNaN(landline2) )
+				{
+					strError+= 'Only digits(0-9) are allowed in landline number field.';
+					$("#landline2").addClass('errorField');
+					$("#landline2").focus();
+				}
+				else if( category == '' )
+				{
+					strError+= 'Please select a business category.';
+					$("#category").addClass('errorField');
+					$("#category").focus();
+				}
+				else if( tag1 == '' || tag2 == '' || tag3 == '' )
+				{
+					strError+= 'Please fill all the tag fields.';
+					if( tag1 == '' )
+					{
+						$("#tag1").addClass('errorField');
+						$("#tag1").focus();
+					}
+					else if( tag2 == '' )
+					{
+						$("#tag2").addClass('errorField');
+						$("#tag2").focus();
+					}
+					else if( tag3 == '' )
+					{
+						$("#tag3").addClass('errorField');
+						$("#tag3").focus();
+					}
+				}
+			}
+			
+			if( strError != '' )
+			{
+				$("#businessSaveError").html(strError);
+				$("#businessSaveError").addClass('divErrorActive');
+				return false;
+			}
+			else
+			{
+				$("#businessLoader").removeClass('divInactive');
+				$("#businessLoader").addClass('divActive');
+				
+				$("#businessSaveError").html('');
+				$("#businessSaveError").addClass('divErrorInactive');
+				
+				var formData = $("#frmBusiness").serialize();
+				$.ajax(
+				{
+			 		url: '/saveBusiness',
+			 		type: 'POST',
+			 		data: formData,
+			 		success:function(newBusinessId)
+			 		{
+			 			closeUberPopUp();
+			 			if( newBusinessId != '' )
+			 			{
+			 				var businessLogo = document.getElementById('businessLogo');
+			 				var file = businessLogo.files[0];
+			 				var logoFormData = new FormData(document.getElementById('frmBusiness'));
+			 				if(file)
+			 				{
+				 				if (!file.type.match('image.*')) 
+				 				{
+									$("#businessSaveError").html('Please select an image file(jpg/png) for logo.');
+									$("#businessSaveError").addClass('divErrorActive');
+									$("#businessLogo").focus();
+									return false;
+							  	}
+							  	
+							  	//var preview = document.getElementById("preview");
+								//preview.src = file.getAsDataURL();
+							  	
+							  	logoFormData.append('newBusinessId', newBusinessId);
+							  	
+							  	logoFormData.append('categoryName', categoryName);
+							  	
+							  	logoFormData.append('businessName', businessName);
+							  	
+							  	$.ajax(
+								{
+							 		url: '/saveBusinessLogo',
+							 		type: 'POST',
+							 		data: logoFormData,
+							 		success:function(data)
+							 		{
+							 		
+							 		},
+							 		processData: false,
+									contentType: false,
+				 					async: false
+						 		});
+			 				}
+			 				
+			 				$("#businessLoader").removeClass('divActive');
+							$("#businessLoader").addClass('divInactive');
+			 				
+			 				$('#popupTitle').removeClass('divError');
+			 				$('#popupTitle').addClass('divSuccess');
+				 			$('#popupTitle').html('Business Added Successfully');
+				 			$('#flashMessage').removeClass('divError');
+				 			$('#flashMessage').addClass('divSuccess');
+				 			$("#flashMessage").html('Congratulations! Your Business has been successfully added.<br><br> Please check your email for your login details and click the button below to login<br><br><div class="frmAddBusinessBtn"><input type="button" onclick="javascript:goToLogin();" value="Login" name="btnNewLogin" class="btnSubmit"></div>');
+			 			}
+		 			 	else
+		 			 	{
+		 			 		$('#popupTitle').removeClass('divSuccess');
+		 			 		$('#popupTitle').addClass('divError');
+		 			 		$('#popupTitle').html('Error !');
+		 			 		$('#flashMessage').removeClass('divSuccess');
+		 			 		$('#flashMessage').addClass('divError');
+				 			$("#flashMessage").html('Sorry! There was some error while saving your business details.');
+		 			 	}
+		 			 	openUberPopUp('flashMessage');
+			 		},
+			 		async: false
+			 	});
+			}
+		}
+		
+		function updateBusiness()
+		{
+			$('body').scrollTop(0);
+			
+			$("#businessUpdateError").html('');
+			$("#businessUpdateError").removeClass('divErrorActive');
+			
+			$("#editBusinessLoader").removeClass('divActive');
+			$("#editBusinessLoader").addClass('divInactive');
+			
+			var businessId = $("#hidBusinessId").val();
+			var businessName = $("#editBusinessName").val();
+			var businessAddress = $("#editBusinessAddress").val();
+			var businessCity = $("#editBusinessCity").val();
+			var businessLocation = $("#editBusinessLocation").val();
+			var businessEmail = $("#editBusinessEmail").val();
+			var mobile1 = $("#editMobile1").val();
+			var mobile2 = $("#editMobile2").val();
+			var landline1 = $("#editLandline1").val();
+			var landline2 = $("#editLandline2").val();
+			var category = $("#editCategory").val();
+			var categoryName = $("#editCategory").find('option:selected').text();
+			
+			var tag1 = $("#editTag1").val();
+			var tag2 = $("#editTag2").val();
+			var tag3 = $("#editTag3").val();
+						
+			businessName = businessName.replace(/[^a-zA-Z 0-9\n\r]+/g, '');
+			$("#editBusinessName").val(businessName);
+			
+			while( businessName.indexOf('  ') > -1 )
+			{
+				businessName = businessName.replace('  ',' ');
+			}
+			
+			businessName = businessName.replace(/\s\s+/g, ' ');
+			$("#editBusinessName").val(businessName);
+			
+			if( businessAddress.indexOf(',') > -1 )
+			{
+				businessAddress = businessAddress.replace(/[,]/g,', ');
+				$("#editBusinessAddress").val(businessAddress);
+			}
+			
+			while( businessAddress.indexOf(' ,') > -1 )
+			{
+				businessAddress = businessAddress.replace(' ,', ',');
+				$("#editBusinessAddress").val(businessAddress);
+			}
+			if( businessAddress.indexOf('  ') > -1 )
+			{
+				businessAddress = businessAddress.replace(/\s\s+/g, ' ');
+				$("#editBusinessAddress").val(businessAddress);
+			}
+						
+			businessEmail = businessEmail.replace(/\s\s+/g, ' ');
+			$("#editBusinessEmail").val(businessEmail);
+									
+			$("input").removeClass('errorField');
+			$("select").removeClass('errorField');
+			
+			var strError = '';
+			
+			if( businessName == '' )
+			{
+				strError+= 'The name of the business cannot be left blank.';
+				$("#editBusinessName").addClass('errorField');
+				$("#editBusinessName").focus();
+			}
+			else if( businessName.length < 3 )
+			{
+				strError+= 'Business name too short. Minimum 3 characters required.';
+				$("#editBusinessName").addClass('errorField');
+				$("#editBusinessName").focus();
+			}
+			else
+			{
+				businessName = businessName.trim();
+				
+				$.ajax(
+				{
+			 		url: '/checkBusinessExistance',
+			 		type: 'POST',
+			 		data: {businessName: businessName, businessId: businessId},
+			 		success:function(businessExistance)
+			 		{
+			 			if( businessExistance == 'True' )
+			 			{
+			 				strError+= 'The business with this name already exists. Please enter a different name.';
+							$("#editBusinessName").addClass('errorField');
+							$("#editBusinessName").focus();
+			 			}
+			 		},
+			 		async: false
+			 	});
+			}
+			
+			if( strError == '' )
+			{
+				if( businessAddress == '' )
+				{
+					strError+= 'Business Address field cannot be left blank.';
+					$("#editBusinessAddress").addClass('errorField');
+					$("#editBusinessAddress").focus();
+				}
+				else if( businessAddress.length < 5 )
+				{
+					strError+= 'Business address too short. Minimum 5 characters required.';
+					$("#editBusinessAddress").addClass('errorField');
+					$("#editBusinessAddress").focus();
+				}
+				else if( businessCity == '' )
+				{
+					strError+= 'Please select the business city.';
+					$("#editBusinessCity").addClass('errorField');
+					$("#editBusinessCity").focus();
+				}
+				else if( businessLocation == '' )
+				{
+					strError+= 'Please select a business location.';
+					$("#editBusinessLocation").addClass('errorField');
+					$("#editBusinessLocation").focus();
+				}
+				else if( businessEmail == '' )
+				{
+					strError+= 'Please enter your email id.';
+					$("#editBusinessEmail").addClass('errorField');
+					$("#editBusinessEmail").focus();
+				}
+				else
+				{
+					var emailRegex = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
+				
+		    		var validateEmail = emailRegex.test(businessEmail);
+		    		
+		    		if( validateEmail == false ) 
+				    {
+				        strError+= 'Please enter a valid email id.';
+						$("#editBusinessEmail").addClass('errorField');
+						$("#editBusinessEmail").focus();
+				    }
+				}
+			}
+			if( strError == '' )
+			{
+				if( mobile1 != '' && isNaN(mobile1) )
+				{
+					strError+= 'Only digits(0-9) are allowed in mobile number field.';
+					$("#editMobile1").addClass('errorField');
+					$("#editMobile1").focus();
+				}
+				else if( mobile2 != '' && isNaN(mobile2) )
+				{
+					strError+= 'Only digits(0-9) are allowed in mobile number field.';
+					$("#editMobile2").addClass('errorField');
+					$("#editMobile2").focus();
+				}
+				else if( landline1 != '' && isNaN(landline1) )
+				{
+					strError+= 'Only digits(0-9) are allowed in landline number field.';
+					$("#editlandline1").addClass('errorField');
+					$("#editlandline1").focus();
+				}
+				else if( landline2 != '' && isNaN(landline2) )
+				{
+					strError+= 'Only digits(0-9) are allowed in landline number field.';
+					$("#editlandline2").addClass('errorField');
+					$("#editlandline2").focus();
+				}
+				else if( category == '' )
+				{
+					strError+= 'Please select a business category.';
+					$("#editCategory").addClass('errorField');
+					$("#editCategory").focus();
+				}
+				else if( tag1 == '' || tag2 == '' || tag3 == '' )
+				{
+					strError+= 'Please fill all the tag fields.';
+					if( tag1 == '' )
+					{
+						$("#editTag1").addClass('errorField');
+						$("#editTag1").focus();
+					}
+					else if( tag2 == '' )
+					{
+						$("#editTag2").addClass('errorField');
+						$("#editTag2").focus();
+					}
+					else if( tag3 == '' )
+					{
+						$("#editTag3").addClass('errorField');
+						$("#editTag3").focus();
+					}
+				}
+			}
+			
+			if( strError != '' )
+			{
+				$("#businessUpdateError").html(strError);
+				$("#businessUpdateError").addClass('divErrorActive');
+				return false;
+			}
+			else
+			{
+				$("#editBusinessLoader").removeClass('divInactive');
+				$("#editBusinessLoader").addClass('divActive');
+				
+				$("#businessUpdateError").html('');
+				$("#businessUpdateError").addClass('divErrorInactive');
+				
+				var formData = $("#frmEditBusiness").serialize();
+				$.ajax(
+				{
+			 		url: '/updateBusiness',
+			 		type: 'POST',
+			 		data: formData,
+			 		success:function(updateResult)
+			 		{
+			 			if( updateResult != '' )
+			 			{
+			 				var businessLogo = document.getElementById('editBusinessLogo');
+			 				var file = businessLogo.files[0];
+			 				var logoFormData = new FormData(document.getElementById('frmEditBusiness'));
+			 				if(file)
+			 				{
+				 				if (!file.type.match('image.*')) 
+				 				{
+									$("#businessUpdateError").html('Please select an image file(jpg/png) for logo.');
+									$("#businessUpdateError").addClass('divErrorActive');
+									$("#editBusinessLogo").focus();
+									return false;
+							  	}
+							  	
+							  	//var preview = document.getElementById("preview");
+								//preview.src = file.getAsDataURL();
+							  	
+							  	logoFormData.append('newBusinessId', businessId);
+							  	
+							  	logoFormData.append('categoryName', categoryName);
+							  	
+							  	logoFormData.append('businessName', businessName);
+							  	
+							  	$.ajax(
+								{
+							 		url: '/saveBusinessLogo',
+							 		type: 'POST',
+							 		data: logoFormData,
+							 		success:function(data)
+							 		{
+							 		
+							 		},
+							 		processData: false,
+									contentType: false,
+				 					async: false
+						 		});
+			 				}
+			 				
+			 				$("#editBusinessLoader").removeClass('divActive');
+							$("#editBusinessLoader").addClass('divInactive');
+			 				showMyBusinesses();
+			 			}
+		 			 	else
+		 			 	{
+		 			 	}
+		 			},
+			 		async: false
+			 	});
+			}
+		}
+		
+		function goToLogin()
+		{
+			$("#listLogin").click();
+		}
+
+		function importUsers()
+		{
+			window.location.href = '/admin/business/';
+		}
+	
+		function getBusinessOwners()
+		{
+			var min_length = 0; // min caracters to display the autocomplete
+		
+			var username = $("#businessOwnerName").val();
+	
+			if (username.length > min_length) {
+				$.ajax({
+					url: '/businessOwner',
+					type: 'POST',
+					data: {username:username},
+					success:function(data){
+	
+						$('#user_list_id').show();
+						$('#user_list_id').html(data);
+					}
+				});
+			} else {
+				$('#user_list_id').hide();
+			}	
+		}
+		function set_item_user(item) {
+		// change input value
+		$('#businessOwnerName').val(item);
+		// hide proposition list
+		$('#user_list_id').hide();
+	
+		}
+		
+		function getCityLocations(cityId, operation)
+		{
+			if( operation == 'Add' )
+			{
+				var businessLocationListBoxId = '#businessLocation';
+			}
+			else
+			{
+				var businessLocationListBoxId = '#editBusinessLocation';
+			}
+			
+			if( cityId == '' )
+			{
+				$(businessLocationListBoxId).attr('disabled', true);
+				$(businessLocationListBoxId).removeClass('errorField');
+			}
+			else
+			{
+				$(businessLocationListBoxId).attr('disabled', false);
+			}
+			$.ajax(
+			{
+	          	url : '/getCityLocations',
+	           	type:'POST',
+	           	data: {cityId: cityId},
+	           	//dataType:'html',   
+	           	success:function(data)
+	           	{
+               		$(businessLocationListBoxId).html(data);
+	            }
+	       	});
+		}
+	
+		function getSubCategories(categoryCode, operation)
+		{
+			if( operation == 'Add' )
+			{
+				var subCatListBoxId = '#subcategory';
+				var subCatDivId = '#div1';
+			}
+			else
+			{
+				var subCatListBoxId = '#editSubcategory';
+				var subCatDivId = '#editDiv1';
+			}
+			
+			if( categoryCode == '' )
+			{
+				$(subCatListBoxId).attr('disabled', true);
+			}
+			else
+			{
+				$(subCatListBoxId).attr('disabled', false);
+			}
+		
+			$.ajax(
+			{
+		      	url : '/getBusinessSubCategories',
+		       	type:'POST',
+		       	data: {categoryCode: categoryCode},
+		       	//dataType:'html',   
+		       	success:function(data)
+		       	{
+	           		$(subCatDivId).html(data);
+	           	}
+		   	});
+	    }
+		
+		function checkNumeric(event, elementId)
+		{
+			//alert($("#"+elementId).val());
+			//alert(event.which);
+			if ( (event.which >= 48 && event.which <= 57) || event.which == 37 || event.which == 39 || event.which == 8 || event.which == 46 || event.which == 9 )
+			{
+				var elementValue = $("#"+elementId).val();
+				var filteredValue = elementValue.replace(/[^0-9\n\r]+/g, '');
+				$("#"+elementId).val(filteredValue);
+			}
+			else
+			{
+				event.preventDefault();
+			}
+		}
+		
+		function checkAlphaNumericSpace(event, elementId)
+		{
+			var elementValue = $("#"+elementId).val();
+			var filteredValue = elementValue.replace(/[^a-zA-Z 0-9\n\r]+/g, '');
+						
+			if ( (event.which >= 48 && event.which <= 57) )
+			{
+				if( elementValue != '' && isNaN(filteredValue.charAt(filteredValue.length - 1)) )
+					filteredValue = elementValue+' ';
+				
+				if( filteredValue.indexOf('  ') > -1 )
+				{
+					filteredValue = filteredValue.replace(/\s\s+/g, ' ');
+				}
+			}
+			$("#"+elementId).val(filteredValue);
+			
+			/*var regexAlphaNumericSpace = new RegExp(^[A-Za-z0-9- ]+$);
+
+			var validateAlphaNumericSpace = regexAlphaNumericSpace.test(txtValue);
+			
+			if(validateAlphaNumericSpace)
+			{
+				
+			}
+			else
+			{
+				event.preventDefault();
+			}*/
+		}
+		
+		
+		function checkAlphabet(event, elementId)
+		{
+			var elementValue = $("#"+elementId).val();
+			var filteredValue = elementValue.replace(/[^a-zA-Z\n\r]+/g, '');
+			$("#"+elementId).val(filteredValue);
+		}
+					
+		function addSpaceBeforeDigit(event, elementId)
+		{
+			var elementValue = $("#"+elementId).val();
+			var filteredValue = elementValue;
+						
+			if ( (event.which >= 48 && event.which <= 57) )
+			{
+				if( elementValue != '' && isNaN(filteredValue.charAt(filteredValue.length - 1)) )
+					filteredValue = elementValue+' ';
+				
+				if( filteredValue.indexOf('  ') > -1 )
+				{
+					filteredValue = filteredValue.replace(/\s\s+/g, ' ');
+				}
+			}
+			$("#"+elementId).val(filteredValue);
+		}
+
+		function update_time(id)
+		{
+			document.getElementById(id).checked = true;
+			if(document.getElementById(id).checked == true)
+			{
+				if(id=='all_days')
+		  		{
+					for(var countElement1=5; countElement1<29; countElement1=countElement1+4)
+					{
+						var countElement2 = countElement1+1;
+						var countElement3 = countElement2+1;
+						var countElement4 = countElement3+1;
+	
+						document.getElementById('time_'+countElement1).value = document.getElementById('time_1').value;
+						document.getElementById('time_'+countElement2).value = document.getElementById('time_2').value;
+						document.getElementById('time_'+countElement3).value = document.getElementById('time_3').value;
+						document.getElementById('time_'+countElement4).value = document.getElementById('time_4').value;	
+					}	
+					document.getElementById('week_days').checked = false;
+				}
+				else if(id=='week_days' )
+		 		{
+					for(var countElement1=5; countElement1<25; countElement1=countElement1+4)
+					{
+						var countElement2 = countElement1+1;
+						var countElement3 = countElement2+1;
+						var countElement4 = countElement3+1;
+
+						document.getElementById('time_'+countElement1).value = document.getElementById('time_1').value;
+						document.getElementById('time_'+countElement2).value = document.getElementById('time_2').value;
+						document.getElementById('time_'+countElement3).value = document.getElementById('time_3').value;
+						document.getElementById('time_'+countElement4).value = document.getElementById('time_4').value;	
+					}	
+	
+					for(var countElement1=25; countElement1<29; countElement1=countElement1+4)
+					{
+						var countElement2 = countElement1+1;
+						var countElement3 = countElement2+1;
+						var countElement4 = countElement3+1;
+
+						document.getElementById('time_'+countElement1).value = "";
+						document.getElementById('time_'+countElement2).value = "";
+						document.getElementById('time_'+countElement3).value = "";
+						document.getElementById('time_'+countElement4).value = "";	
+					}
+					document.getElementById('all_days').checked = false;
+				}
+				
+				else if( id == 'edit_all_days' )
+		  		{
+					for(var countElement1=5; countElement1<29; countElement1=countElement1+4)
+					{
+						var countElement2 = countElement1+1;
+						var countElement3 = countElement2+1;
+						var countElement4 = countElement3+1;
+	
+						document.getElementById('edit_time_'+countElement1).value = document.getElementById('edit_time_1').value;
+						document.getElementById('edit_time_'+countElement2).value = document.getElementById('edit_time_2').value;
+						document.getElementById('edit_time_'+countElement3).value = document.getElementById('edit_time_3').value;
+						document.getElementById('edit_time_'+countElement4).value = document.getElementById('edit_time_4').value;	
+					}	
+					document.getElementById('edit_week_days').checked = false;
+				}
+				else if( id == 'edit_week_days' )
+		 		{
+					for(var countElement1=5; countElement1<25; countElement1=countElement1+4)
+					{
+						var countElement2 = countElement1+1;
+						var countElement3 = countElement2+1;
+						var countElement4 = countElement3+1;
+
+						document.getElementById('edit_time_'+countElement1).value = document.getElementById('edit_time_1').value;
+						document.getElementById('edit_time_'+countElement2).value = document.getElementById('edit_time_2').value;
+						document.getElementById('edit_time_'+countElement3).value = document.getElementById('edit_time_3').value;
+						document.getElementById('edit_time_'+countElement4).value = document.getElementById('edit_time_4').value;	
+					}	
+	
+					for(var countElement1=25; countElement1<29; countElement1=countElement1+4)
+					{
+						var countElement2 = countElement1+1;
+						var countElement3 = countElement2+1;
+						var countElement4 = countElement3+1;
+
+						document.getElementById('edit_time_'+countElement1).value = "";
+						document.getElementById('edit_time_'+countElement2).value = "";
+						document.getElementById('edit_time_'+countElement3).value = "";
+						document.getElementById('edit_time_'+countElement4).value = "";	
+					}
+					document.getElementById('edit_all_days').checked = false;
+				}
+			}
+		}
+		
+		
+		function getScroller()
+		{
+			$('html, body').css({
+				'overflow': 'hidden',
+				'height': '100%'
+			});
+			$(".app_popUpInnerDiv").mCustomScrollbar({autoHideScrollbar: true});
+		}
+		
+		function appFunc()
+		{
+			var month = new Array();
+			month[0] = "January";
+			month[1] = "February";
+			month[2] = "March";
+			month[3] = "April";
+			month[4] = "May";
+			month[5] = "June";
+			month[6] = "July";
+			month[7] = "August";
+			month[8] = "September";
+			month[9] = "October";
+			month[10] = "November";
+			month[11] = "December";
+			 
+			var callbackRangeCalendar = $("#cal4").rangeCalendar();
+			$('.months').css('display', 'none');
+			$('.cal-cell').each(function() 
+			{
+				var yearMonth = $(this).attr('month-id');
+				var txtYear = yearMonth.substr(2,2);
+				var txtMonth = yearMonth.substr(4,2);
+
+				//var monthNumber = $(this).attr('month-id');
+				var monthName = month[parseInt(txtMonth)-1].substr(0,3);
+				console.log(txtMonth+"----"+monthName);
+				$(this).prepend('<div class="day-number">'+monthName+" "+txtYear+"</div>");
+			});
+			$('div').on("click", ".cal-cell", function()
+			{
+				var Full_date = $('.cal-cell').filter(".selected").attr('date-id');
+
+				var seleted_year = Full_date.substr(0,4);
+				var selected_month = Full_date.substr(5,1);
+				var selected_day = Full_date.substr(6,2);
+				var dash_between='-';
+
+				var monthName = ["January", "February", "March", "April", "May", "June",
+				"July", "August", "September", "October", "November", "December"];
+				var months_news=monthName[selected_month-1];
+				var selected_date_format=months_news+' '+ selected_day + ' , '+ seleted_year;
+				document.getElementById("hidden_date").value=selected_date_format;
+				$('.cal-cell .tick').remove();
+				$('.cal-cell').filter(".selected").find('.cell-content .day-number').append("<font class='tick' style='color:#00B200;'>&#10003;</font>");
+			});
+			$('.cal-cell').filter(".selected").find('.cell-content .day-number').append("<font class='tick' style='color:#00B200;'>&#10003;</font>");
+			function ragneChanged(target,range) 
+			{
+				console.log(range);
+			}
+		}
+		
+		function loadSliderScript()
+		{
+			var options = {
+                $AutoPlay: true,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+                $AutoPlaySteps: 1,                                  //[Optional] Steps to go for each navigation request (this options applys only when slideshow disabled), the default value is 1
+                $AutoPlayInterval: 4000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+                $PauseOnHover: 1,                               //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
+
+                $ArrowKeyNavigation: true,   			           //[Optional] Allows keyboard (arrow key) navigation or not, default value is false
+                $SlideDuration: 160,                                //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
+                $MinDragOffsetToSlide: 20,                          //[Optional] Minimum drag offset to trigger slide , default value is 20
+                $SlideWidth: 200,                                   //[Optional] Width of every slide in pixels, default value is width of 'slides' container
+                //$SlideHeight: 150,                                //[Optional] Height of every slide in pixels, default value is height of 'slides' container
+                $SlideSpacing: 3, 					               //[Optional] Space between each slide in pixels, default value is 0
+                $DisplayPieces: 3,                                  //[Optional] Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
+                $ParkingPosition: 0,                              //[Optional] The offset position to park slide (this options applys only when slideshow disabled), default value is 0.
+                $UISearchMode: 1,                                   //[Optional] The way (0 parellel, 1 recursive, default value is 1) to search UI components (slides container, loading screen, navigator container, arrow navigator container, thumbnail navigator container etc).
+                $PlayOrientation: 1,                                //[Optional] Orientation to play slide (for auto play, navigation), 1 horizental, 2 vertical, 5 horizental reverse, 6 vertical reverse, default value is 1
+                $DragOrientation: 1,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
+
+                $BulletNavigatorOptions: {                                //[Optional] Options to specify and enable navigator or not
+                    $Class: $JssorBulletNavigator$,                       //[Required] Class to create navigator instance
+                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                    $AutoCenter: 0,                                 //[Optional] Auto center navigator in parent container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+                    $Steps: 1,                                      //[Optional] Steps to go for each navigation request, default value is 1
+                    $Lanes: 1,                                      //[Optional] Specify lanes to arrange items, default value is 1
+                    $SpacingX: 0,                                   //[Optional] Horizontal space between each item in pixel, default value is 0
+                    $SpacingY: 0,                                   //[Optional] Vertical space between each item in pixel, default value is 0
+                    $Orientation: 1                                 //[Optional] The orientation of the navigator, 1 horizontal, 2 vertical, default value is 1
+                },
+
+                $ArrowNavigatorOptions: {
+                    $Class: $JssorArrowNavigator$,              //[Requried] Class to create arrow navigator instance
+                    $ChanceToShow: 1,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                    $AutoCenter: 2,                                 //[Optional] Auto center navigator in parent container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+                    $Steps: 1                                       //[Optional] Steps to go for each navigation request, default value is 1
+                }
+            };
+
+            var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+
+            //responsive code begin
+            //you can remove responsive code if you don't want the slider scales while window resizes
+            function ScaleSlider() {
+                var bodyWidth = document.body.clientWidth;
+                if (bodyWidth)
+                    jssor_slider1.$ScaleWidth(Math.min(bodyWidth, 809));
+                else
+                    window.setTimeout(ScaleSlider, 30);
+            }
+            ScaleSlider();
+
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+		}
+		
+		function resetBusinessForm()
+		{
+			$("#businessLogo").val('');
+			$("#preview").attr('src', "/images/default/no-preview.jpg");
+		}
+
+		function checkKey(e)
+		{
+			var keynum;
+
+			if(window.event) // IE	
+			{ 				
+				keynum = e.keyCode;
+			}
+			else if(e.which) // Netscape/Firefox/Opera	
+			{ 				
+				keynum = e.which;
+		 	}
+		 	if( keynum == 13 )
+		 		$("#btnSearch").click();
+		}
+
+		function checkKeyStroke(e)
+		{
+			var keynum;
+
+			if(window.event) // IE	
+			{ 				
+				keynum = e.keyCode;
+			}
+			else if(e.which) // Netscape/Firefox/Opera	
+			{ 				
+				keynum = e.which;
+		 	}
+		 	if( keynum == 13 )
+		 		$("#buttonsave").click();
+		}
+
+		function moreReview(vid)
+		{
+			var largeReview="large";
+			var a=largeReview+vid;
+			var shortReview="short";
+			var b=shortReview+vid;
+			$( "#" + a ).hide();
+			$(  "#" + b ).fadeIn("slow");
+		}
+		function lessReview(vid)
+		{
+			var largeReview="large";
+			var a=largeReview+vid;
+			var shortReview="short";
+			var b=shortReview+vid;
+			$( "#" + b ).hide();
+			$(  "#" + a ).fadeIn("slow");
+		}
+
+		function showmore()
+		{
+			$("#categoryless").hide();
+			$("#categoryfull").show();
+		}
+		function showless()
+		{
+			$("#categoryless").show();
+			$("#categoryfull").hide();
+		}
+
+		function mysearch()
+		{
+			var locations=document.getElementById("searchmarker").value;
+		 	var myOptions = 
+			{
+		   		center: new google.maps.LatLng(33.890542, 151.274856),
+			   	zoom: 12,
+			   	mapTypeId: google.maps.MapTypeId.ROADMAP
+		 	};
+		 	var map = new google.maps.Map(document.getElementById("default"), myOptions);
+		 
+		 	setMarkers(map,locations);
+		}
+		 	
+		function setMarkers(map,locations)
+		{
+			var location = jQuery.parseJSON(locations);
+			for(var businessCounter=0; businessCounter<location.length; businessCounter++)
+			{
+				var marker, i;
+				/*for(var businessItemCounter=0; businessItemCounter<4; businessItemCounter++)
+				{
+					alert(location[businessCounter][businessItemCounter]);
+				}*/
+				var businessName = location[businessCounter][0];
+				var latitude = location[businessCounter][1];
+				var longitude = location[businessCounter][2];
+				var businessLocation =  location[businessCounter][3];
+	
+				latlngset = new google.maps.LatLng(latitude, longitude);
+
+				var marker = new google.maps.Marker({  
+					map: map, title: businessName , position: latlngset  
+				});
+
+				map.setCenter(marker.getPosition())
+
+				var content = "Business Name: " + businessName + ', ' + '</h3>' + "Address: " + businessLocation     
+
+				var infowindow = new google.maps.InfoWindow()
+
+				google.maps.event.addListener(marker,'click', (function(marker,content,infowindow){ 
+					return function() {
+					   infowindow.setContent(content);
+					   infowindow.open(map,marker);
+					};
+				})(marker,content,infowindow)); 
+
+			}
+		}
+	
+
+	</script>
+	
+	<script async defer src="https://maps.googleapis.com/maps/api/js?signed_in=false&callback=initMap"></script>
+  	<!-- Start Script for Facebook login -->
+  	<script>
+		/*window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return t;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));
+
+		(function(d)
+		{
+			var f = d.getElementsByTagName('SCRIPT')[0], p = d.createElement('SCRIPT');
+			p.type = 'text/javascript';
+			p.async = true;
+			p.src = '//assets.pinterest.com/js/pinit.js';
+			f.parentNode.insertBefore(p, f);
+		}(document));
+		*/
+		function crosspopup()
+	 	{
+	 		$("#citySelectionPopUp").hide();
+		}
+	 	function fblogout()
+	 	{
+	 		if(typeof(Storage) !== "undefined") 
+	 		{
+				localStorage.removeItem("phone_save_number");
+				localStorage.removeItem("user_save_id");
+			} 
+			else 
+			{
+				// Sorry! No Web Storage support..
+			}
+			$.ajax(
+			{
+	 			url: '/frontlogout',
+		 		type: 'POST',
+		 		success:function(data)
+				{
+		 			location.reload();
+		 		}
+		 	});
+			 /*FB.logout(function(response) {
+			  // user is now logged out
+			 });*/
+			 // location.reload();
+	 	}
+	</script>
+	<!-- End Script for Facebook login -->
+
+	<!--<script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>-->
+
+  	<link rel="stylesheet" type="text/css" href="/themes/web/js/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+	  
+	
+	
+	
+	
+	
+	
+
+
+
+	 	
+	 		
+	 	 
+	<style>
+	.404message {
+    font-size: 20px;
+    line-height: normal;
+    margin: 20px auto;
+    text-align: center;
+    width: 500px;
+}
+	.lblCallUs {
+    color: #0e7cc8;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 8%;
+    text-align: left;
+    width: 290px;
+}
+	html {
+    background: #fff none repeat scroll 0 0;
+    padding: 0;
+}
+	#sf-resetcontent{display:none;}
+	.centersss 
+	{
+		float: left;
+		width: 20%;
+		text-align:left;
+		padding-left:5%;
+		
+	}
+	#ff input {
+	margin-bottom:0px;
+	}
+	.row
+	{
+	padding:0px;
+	}
+	.icon_social
+	{
+	padding: 0 10px;
+	}
+</style>
+   </head>
+   <!---Start header-------->
+   <div class="wrapper top_header" style="position:relative;">
+      <div class="shell">
+         <header id="header">
+            <div id="logo">
+               <a href="/Chandigarh"><img style="height: 60px;margin-top: 8px;" src="/images/logo.png" width="373" height="111" alt="In City Search" title="InCitySearch">
+               </a>
+            </div>
+            <input type="hidden" name="hidCurrentLocation" id="hidCurrentLocation" value="">
+            <div class="right_header_top" >
+               <!--<b><font style="font-size:15px;float:left;">Your Location:&nbsp;</font></b>-->	 
+               <span id="userCity" onclick="showCitySelectionPopUp(0)">
+                  <div class="log" style="font-size:14px;float:left;" id="currentCity">
+                  </div>
+                  <img src="/images/arrow.png" style="margin-left: 6px; margin-top: 3px;">
+               </span>
+            </div>
+            
+           	<div class="divCallUs">
+           		<a href="tel:+918591591800"><img class="imgCallUs" src="/images/icons/ph.jpeg">
+           		+91-(859)-(159)-1800
+           		</a>
+          	</div>
+           
+            <div class="right_header" style="margin-right: -5.7%;margin-top: 0px;">
+            	<div class="uberMenuContainer">
+            		<div class="uberMenuIcon">
+            			<img src="/images/icons/uberMenuIcon.png">
+	      			</div>
+		          	
+				  	<div class="uberMenuItems">
+						<ul>
+							<li id="listCategories" onclick="openUberPopUp(this.id);">Categories<span class="expander"></span></li>
+							<li id="listAddBusiness" onclick="openUberPopUp(this.id);">Add Business<span class="expander"></span></li>
+															<li id="listProfile" onclick="openUberPopUp(this.id);viewUserProfile();">My Profile<span class="expander"></span></li>
+								<li id="listEditProfile" class="divInactive" onclick="openUberPopUp(this.id);viewUserProfile();">Edit Profile<span class="expander"></span></li>
+								<li id="listPassword" class="divInactive" onclick="openUberPopUp(this.id);">Change Password<span class="expander"></span></li>
+								<li id="listBusiness" class="divInactive" onclick="openUberPopUp(this.id);viewUserProfile();">My Businesses<span class="expander"></span></li>
+								<li id="listLogout" style="background-image: none;" onclick="fblogout();">Logout</li>
+														<li id="listLogin" style="background-image: none;" onclick="javascript:$('#abtU').click();">About Us</li>
+							<li id="listLogin" style="background-image: none;" onclick="javascript:$('#contU').click();">Contact Us</li>
+						</ul>
+			  		</div>
+		  		</div>
+		  		
+               <!--<div class="login">
+                  <ul>
+                                          <li><a class="fancybox-effects-c" onclick="fblogout();">Logout</a></li>
+                                       </ul>
+             	</div>-->
+            </div>
+      </div>
+   </div>
+   </header>
+   </div>
+   </div>
+
+   <input  name="lat" id="lat" type="hidden"  value="" />	
+   <input  name="longi" id="longi" type="hidden"  value="" />
+	<input  name="hidSubmitClicked" id="hidSubmitClicked" type="hidden"  value="0" />
+	
+	
+	<div id="divFlashMessageOuter" style="display: none; position: absolute; float: left; background-color: rgba(0, 0, 0, 0.798039); zoom: 1; z-index: 10; width: 100%; height: 100%; top: 0px; left: 0px; opacity: 1; min-height: 1050px; z-index: 33333333; text-align: centersss; ">
+      <div id="divFlashMessage" style="display: inline-block; background-color: white;  border: 2px solid; z-index: 1111; position: relative; width: 30%; padding: 20px; top: 110px; color: green; font-size: 16px;">
+      			
+         </div>
+   </div>
+	
+	
+
+   <div id="citySelectionPopUp" style="display: none; position: absolute; float: left; background-color: rgba(0, 0, 0, 0.798039); zoom: 1; z-index: 10; width: 100%; height: 100%; top: 0px; left: 0px; opacity: 1; min-height: 1050px; z-index: 33333333; text-align: centersss; text-align:center;">
+      <div style="display: inline-block; background-color: white;  border: 2px solid; z-index: 1111; position: relative; width: 30%; padding: 20px; top: 110px;">
+         <header class="popupHeader2" style="margin-left:0%;width:90%;margin-top:-3%;height:10px;background-color:#fff;">
+            <span class="header_title">Select Your City</span>
+                        	<span id="btnCrossSelectCityPopUp" class="modal_close" onclick="crosspopup()" style="padding: 2px;background-color:#fff;">
+					<img src="/images/icons/uberCross.png" style="background-color:#fff;">
+				</span>		
+            	<!--<span id="btnCrossSelectCityPopUp" class="modal_close" onclick="crosspopup()"><i class="fa fa-times"></i></span>-->
+                     </header>
+         <input type="text" class="poptextboxwidth" id="userSelectedCity" value="Chandigarh" placeholder="Enter Your City" onkeyup="searchCities()" onkeypress="checkKeyStroke(event);" style="text-indent:10px;font-size:18px;margin-left:20%;width:60%;border-color: lightgrey;" required>
+         
+         <ul id="showmap_list_id"></ul>
+         
+         <p style="float:right;">
+            <input type="button" name="buttonsave" id="buttonsave" style="padding: 5px 10px ! important; margin-right: 3%;display:none;" value="Submit" onclick="javascript:updateUserLocation();">
+         </p>
+         
+        
+         <div id="loadingCityMsg" class="notesr" style="background-color:#fff;margin-bottom:10px;font-size:16px;display:none;">
+         	Loading your location.........
+     	</div>
+         <!--<div id="note" class="notesr"></div>-->
+      </div>
+   </div>
+   <!---End header-------->
+   
+<style>
+.fl_left {
+    float: left;
+    width: 100%;
+}
+
+ 
+	.crosses
+	{
+	float:right;
+	margin-right: -25px;
+	margin-top: -46px;
+	}   
+	.crossessecond
+	{
+	float:right;
+	margin-right: -25px;
+	margin-top: -46px;
+	}     
+	.popupHeader2 {
+	background: none repeat scroll 0 0 #f4f4f2;
+	border-bottom: 1px solid #ddd;
+	font-weight: bold;
+	margin: -25px -25px 25px;
+	padding: 10px 20px;
+	position: relative;
+	width: 97%;
+	}
+	.popupHeader2 .modal_close {
+	background: none repeat scroll 0 0 #e4e4e2;
+	color: #aaa;
+	cursor: pointer;
+	font-size: 16px;
+	padding: 10px 15px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	}
+	.popupHeader2 {
+	font-size: 16px;
+	text-transform: uppercase;
+	text-align:left;
+	}
+	#resultreviews
+	{
+	width:95%;
+	}
+	#resultoffer
+	{
+	width:95%;
+	}
+	.error
+	{
+	width:95%;
+	}
+	#option3 form {
+	height: 400px;
+	overflow-y: scroll;
+	}
+	#option4 form
+	{
+	height: 400px;
+	overflow-y: scroll;
+	}
+	#option6 form
+	{
+	height: 380px;
+	overflow-y: scroll;
+	}
+	#option111 form
+	{
+	height:420px;
+	overflow-y: scroll;
+	}
+	#minprice-error
+	{
+	display:none !important;
+	}
+	#c-pass {
+	width: 149px;
+	}
+	.yourproduct
+	{
+		float:left;
+		margin-top:8px;
+	}
+	.yourproducts
+	{
+		float:left;
+		margin-top:8px;
+		margin-left:10px;
+	}
+	.links
+	{
+	color: #0070BF;
+	text-decoration: none;
+	cursor: pointer;
+	}
+	span.links:hover
+	{
+	text-decoration: underline;
+	}
+	html {
+    background: #eee none repeat scroll 0 0;
+    padding: 0;
+}
+	#sf-resetcontent{display:none;}
+</style>
+
+
+<!-- Start Search Bar -->
+<div class="wrapper map_container" id="map-canvas">
+</div>
+<div class="wrapper map_container searchDivMap" style="">
+	<section class="cont">
+		<!--<div style="color: black; font-size: 20px; line-height: 20px; text-align: center; background: yellow !important; opacity: 0.5;margin-bottom: -20px;" class="search_outer">Search Businesses or Services near to you</div>-->
+		<div class="searchContainer">
+			<div class="search_outer">
+				<form id="frmSearch" action="" method="POST" >
+					<div class="input_outer one">
+						<span>Find </span>
+						<input class="mt1" style="border:none;" placeholder="Businesses, Products, Services" id="business" type="text" value="" name="business" autocomplete="off" onkeyup="autocomplet()" onkeydown="javascript:addSpaceBeforeDigit(event, this.id);" onkeypress="addSpaceBeforeDigit(event, this.id);checkKey(event);$('#location_list_id').css('display', 'none');"/>					 
+						<ul id="business_list_id" ></ul>
+					</div>
+					<div class="input_outer two">
+						<span>Near</span>
+						<input size="45" class="ui-helper-hidden-accessible mt1" placeholder="Location, Area" id="searchlocations" type="text" value="" name="searchlocations" autocomplete="off" onkeyup="autocompletlocation()" onkeydown="javascript:addSpaceBeforeDigit(event, this.id);" onkeypress="addSpaceBeforeDigit(event, this.id);checkKey(event);$('#business_list_id').css('display', 'none');"/> 
+						<ul id="location_list_id"></ul>
+					</div>
+					<div class="input_outer three" style="display:none;">
+						<span>Price</span>
+						<input type="text" onkeyup="autocompletprice()" autocomplete="off" name="searchpricesLabel" value="" id="searchpricesLabel" placeholder="`" size="45" disabled>
+						<input class="price mt1" type="text" onkeyup="autocompletprice()" onkeypress="checkKey(event);" autocomplete="off" name="searchprices" value="" id="searchprices" placeholder="XX - XX" size="45">
+						<ul id="price_list_id"></ul>
+					</div>
+					<input id="btnSearch" type="button" class="button" value="Find" onclick="javascript:validateAndSubmitForm();">      
+				</form>
+			</div>
+		</div>
+	</section>
+</div>
+<!-- End Search Bar -->
+
+<!-- Start Main Div -->
+<div class="main">
+<div class="wrapper row2">
+			<div class="clear" id="container">
+				<div class="clear" id="fof">
+				  <div class="fl_left">
+				  <div style="font-size: 20px;
+    line-height: normal;
+    margin: 20px auto;
+    text-align: center;
+    width: 500px;">
+					<h1>404: Page not Found</h1>
+					<p>Sorry, but the page you requested could not be found.</p>
+					<p>Go back to the <a href="javascript:history.go(-1)">previous page</a> or visit our <a href="/">homepage</a></p>
+					
+					</div>
+				  </div>
+				</div>
+			</div>
+		</div>
+
+</div>
+<!-- End Main  -->
+   
+
+<!-- Start Login PopUp Javascript -->
+<script type="text/javascript">
+ 
+ 	(function(d, s, id)
+	{
+	 	var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=1395155600780178";
+		  fjs.parentNode.insertBefore(js, fjs);
+	}
+	(document, 'script', 'facebook-jssdk')
+	);
+ 
+	FB.init({appId: "1395155600780178", status: true, cookie: false, oauth  : true, xfbml  : true});
+	
+	function showHideManualHours(checked, operation)
+	{
+		if( operation == 'Add' )
+		{
+			var divHours = "#manualBusinessHours";
+			var hiddenHour = "#hidAllHoursBusiness";
+		}
+		else
+		{
+			var divHours = "#editManualBusinessHours";
+			var hiddenHour = "#hidEditAllHoursBusiness";
+		}
+		
+		if(checked)
+		{
+			$(divHours).fadeOut("slow");
+			$(hiddenHour).val(1);
+		}
+		else
+		{
+			$(divHours).fadeIn("slow");
+			$(hiddenHour).val(0);
+		}
+	}
+ 
+	function viewUserProfile()
+	{
+		$("#sectionEditProfile").removeClass('divActive');
+		$("#sectionEditProfile").addClass('divInactive');
+		$("#sectionChangePassword").removeClass('divActive');
+		$("#sectionChangePassword").addClass('divInactive');
+		
+		$("#sectionViewProfile").removeClass('divInactive');
+		$("#sectionViewProfile").addClass('divActive');
+		
+		$.ajax({
+		 	url: '/viewUserProfile',
+		 	type: 'POST',
+		 	//data: {keyword:keyword},
+		 	success:function(data)
+		 	{
+				$("#profileBox").html(data);
+		 	}
+		 });
+	}
+	
+	function editUserProfile()
+	{
+		$('#contentPopUp').css('display', 'none');
+		
+		$('#popupTitle').removeClass('headProfile');
+		$('.headerSeparator').addClass('divInactive');
+		$('#popupTitle1').addClass('divInactive');
+		
+		$('#popupTitle').html('Edit Profile');
+		$("#sectionViewProfile").removeClass('divActive');
+		$("#sectionViewProfile").addClass('divInactive');
+		$("#sectionChangePassword").removeClass('divActive');
+		$("#sectionChangePassword").addClass('divInactive');
+		
+		$("#sectionEditProfile").removeClass('divInactive');
+		$("#sectionEditProfile").addClass('divActive');
+		
+		$('#contentPopUp').fadeIn('slow');
+	}
+	
+	function updateUserProfile()
+	{
+		$('input').removeClass('errorField');
+		
+		var editFirstName = $("#editFirstName").val();
+		var editLastName = $("#editLastName").val();
+		//var editUsername = $("#editUsername").val();
+		var editEmail = $("#editEmail").val();
+		var editPhone = $("#editPhone").val();
+		var editAddress = $("#editAddress").val();
+		var editCity = $("#editCity").val();
+		var editLocation = $("#editLocation").val();
+		var editPincode = $("#editPincode").val();
+		
+		var strError = '';
+		
+		//alert(editEmail+"--"+editPhone);
+		
+		if( editEmail == '' && editPhone == '' )
+		{
+			strError+='You must fill one of the fields from Email and Phone to proceed.';
+			$("#editEmail").addClass('errorField');
+			$("#editEmail").focus();
+		}
+		else
+		{
+			if( editEmail != '' )
+			{
+				var emailRegex = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
+		
+				var validateEmail = emailRegex.test(editEmail);
+				
+				if( validateEmail == false ) 
+				{
+				    strError+= 'Please enter a valid email id.';
+					$("#editEmail").addClass('errorField');
+					$("#editEmail").focus();
+				}
+				else
+				{
+					$.ajax(
+					{
+				 		url: '/checkUserExistance',
+				 		type: 'POST',
+				 		data: {email: editEmail},
+				 		success:function(emailExistance)
+				 		{
+				 			if( emailExistance == 'True' )
+				 			{
+				 				strError+= 'A user with this email already exists. Please enter a different email.';
+								$("#editEmail").addClass('errorField');
+								$("#editEmail").focus();
+				 			}
+				 		},
+				 		async: false
+				 	});
+				}
+			}
+			if( editPhone != '' )
+			{
+				if( isNaN(editPhone) || editPhone.length < 10 )
+				{
+					strError+='Please enter a valid 10 digit phone number.';
+					$("#editPhone").addClass('errorField');
+					$("#editPhone").focus();
+				}
+				else
+				{
+					$.ajax(
+					{
+				 		url: '/checkUserExistance',
+				 		type: 'POST',
+				 		data: {phone: editPhone},
+				 		success:function(phoneExistance)
+				 		{
+				 			if( phoneExistance == 'True' )
+				 			{
+				 				strError+= 'A user with this phone number already exists. Please enter a different phone number.';
+								$("#editPhone").addClass('errorField');
+								$("#editPhone").focus();
+				 			}
+				 		},
+				 		async: false
+				 	});
+				}
+			}
+		}
+		
+		if( strError != '' )
+		{
+			$("#errorUpdateUserProfile").html(strError);
+			$("#errorUpdateUserProfile").fadeIn("slow");
+			return false;
+		}
+		else
+		{
+			$(".errorUpdateUserProfile").html('');
+		}	
+		
+		
+		$('.loader').removeClass('divInactive');
+		$('.loader').addClass('divActive');
+		var formData = $("#frmUpdateUserProfile").serialize();
+		$.ajax({
+		 	url: '/updateUserProfile',
+		 	type: 'POST',
+		 	data: formData,
+		 	success:function(data)
+		 	{
+		 		if( data != '' )
+		 		{
+		 			var userProfileImage = document.getElementById('userProfileImage');
+	 				var file = userProfileImage.files[0];
+	 				var userProfileFormData = new FormData(document.getElementById('frmUpdateUserProfileImage'));
+	 				if(file)
+	 				{
+		 				if (!file.type.match('image.*')) 
+		 				{
+							$("#errorUpdateUserProfile").html('Please select an image file(jpg/png) for logo.');
+							$("#errorUpdateUserProfile").addClass('divErrorActive');
+							$("#userProfileImage").focus();
+							return false;
+					  	}
+					  	
+					  	$.ajax(
+						{
+					 		url: '/updateUserProfileImage',
+					 		type: 'POST',
+					 		data: userProfileFormData,
+					 		success:function(data)
+					 		{
+					 			
+					 		},
+					 		processData: false,
+							contentType: false,
+		 					async: true
+				 		});
+	 				}
+	 				$.ajax(
+		 			{
+					 	url: '/viewUserProfile',
+					 	type: 'POST',
+					 	//data: {keyword:keyword},
+					 	success:function(data)
+					 	{
+							$("#profileBox").html(data);
+							setTimeout(goBackToUserProfile(), 40000);
+					 	}
+				 	});
+				}
+		 	}
+		 });
+	}
+	
+	function changeUserPassword()
+	{
+		$("#sectionViewProfile").removeClass('divActive');
+		$("#sectionViewProfile").addClass('divInactive');
+		$("#sectionEditProfile").removeClass('divActive');
+		$("#sectionEditProfile").addClass('divInactive');
+		
+		$("#sectionChangePassword").removeClass('divInactive');
+		$("#sectionChangePassword").addClass('divActive');
+		
+		openUberPopUp('listPassword');
+	}
+	
+	function updateUserPassword()
+	{
+		var oldPwd = $("#oldPwd").val();
+		var newPwd = $("#newPwd").val();
+		var confirmNewPwd = $("#confirmNewPwd").val();
+		
+		$("#oldPwd").removeClass('errorField');
+		$("#newPwd").removeClass('errorField');
+		$("#confirmNewPwd").removeClass('errorField');
+		
+		var strError = '';
+		
+		if( oldPwd == '' )
+		{
+			strError+='Please enter your current password to proceed.';
+			$("#oldPwd").addClass('errorField');
+			$("#oldPwd").focus();
+		}
+		else if( newPwd == '' )
+		{
+			strError+='The new password field cannot be left blank.';
+			$("#newPwd").addClass('errorField');
+			$("#newPwd").focus();
+		}
+		else if( confirmNewPwd == '' )
+		{
+			strError+='The confirm password field cannot be left blank.';
+			$("#confirmNewPwd").addClass('errorField');
+			$("#confirmNewPwd").focus();
+		}
+		else if( newPwd != confirmNewPwd )
+		{
+			strError+='The new password must match in both the fields.';
+			$("#confirmNewPwd").addClass('errorField');
+			$("#confirmNewPwd").focus();
+		}
+		else if( oldPwd == newPwd )
+		{
+			strError+='The new password must be different from your current password.';
+			$("#newPwd").addClass('errorField');
+			$("#newPwd").focus();
+		}
+		
+		if( strError != '' )
+		{
+			$(".errorChangePwd").html(strError);
+			return false;
+		}
+		else
+		{
+			$(".errorChangePwd").html('');
+		}	
+		
+		$.ajax({
+		 	url: '/validateUserPassword',
+		 	type: 'POST',
+		 	data: {password : oldPwd},
+		 	success:function(data)
+		 	{
+		 		if( data == 'SUCCESS' )
+		 		{
+					$('.loader').removeClass('divInactive');
+					$('.loader').addClass('divActive');
+					$.ajax({
+					 	url: '/updateUserPassword',
+					 	type: 'POST',
+					 	data: {password : newPwd},
+					 	success:function(data)
+					 	{
+					 		$("#oldPwd").val('');
+							$("#newPwd").val('');
+							$("#confirmNewPwd").val('');
+							$(".errorChangePwd").html('Your password has been changed successfully.');
+							$(".errorChangePwd").addClass('divSuccess');
+							$('.loader').removeClass('divActive');
+							$('.loader').addClass('divInactive');
+					 	}
+				 	});
+			 	}
+			 	else
+			 	{
+			 		$(".errorChangePwd").html('Please enter correct current password.');
+			 		$("#oldPwd").addClass('errorField');
+					$("#oldPwd").focus();
+					return false;
+			 	}
+		 	}
+		 });
+	}
+	
+	function showMyBusinesses()
+	{
+		$('#popupTitle').html('My Profile');
+		
+		$('#popupTitle').addClass('headProfile');
+		$('.headerSeparator').removeClass('divInactive');
+		$('#popupTitle1').removeClass('divInactive');
+
+		$('.headProfile').removeClass('headActive');
+		$('.headBusinesses').addClass('headActive');
+		$('.cats').fadeOut('fast');
+		$('#businessBox').addClass('divActive');
+		$('#businessBox').fadeIn('slow');
+		
+		$.ajax({
+		 	url: '/getUserBusinesses',
+		 	type: 'POST',
+		 	//data: {},
+		 	success:function(data)
+		 	{
+				$('#divMyBusinesses').html(data);
+				$('#popupTitle').attr('onclick', 'javascript:hideMyBusinesses();');
+		 	}
+	 	});
+	}
+	
+	function hideMyBusinesses()
+	{
+		$('.headProfile').addClass('headActive');
+		$('.headBusinesses').removeClass('headActive');
+		$('.cats').fadeOut('fast');
+		$('#profileBox').addClass('divActive');
+		$('#profileBox').fadeIn('slow');
+	}
+	
+	function showBusinessDetail(businessId, businessName)
+	{
+		$('#popupTitle').removeClass('headProfile');
+		$('.headerSeparator').addClass('divInactive');
+		$('#popupTitle1').addClass('divInactive');
+
+		$('.cats').fadeOut('fast');
+		$('#popupTitle').attr('onclick','');
+		$('#popupTitle').html('<a href="#" onclick="javascript:showMyBusinesses();">MY BUSINESSES</a>  >>  '+businessName);
+		
+		$.ajax({
+		 	url: '/getUserBusinesses',
+		 	type: 'POST',
+		 	data: {businessId: businessId},
+		 	success:function(data)
+		 	{
+				$('#editBusinessBox').html(data);
+				$('#editBusinessBox').addClass('divActive');
+				$('#editBusinessBox').fadeIn('slow');
+		 	}
+	 	});
+		
+		
+		
+	}
+ 
+ 	function goBackToUserProfile()
+	{
+		$('#popupTitle').addClass('headProfile');
+		$('.headerSeparator').removeClass('divInactive');
+		$('#popupTitle1').removeClass('divInactive');
+		
+		$('#contentPopUp').css('display', 'none');
+		
+		$('#popupTitle').html('View Profile');
+		
+		$('#categoryBox').css('display', 'none');
+		$('#loginBox').css('display', 'none');
+		$('#passwordBox').css('display', 'none');
+		
+		$("#sectionEditProfile").removeClass('divActive');
+		$("#sectionEditProfile").addClass('divInactive');
+		$("#sectionChangePassword").removeClass('divActive');
+		$("#sectionChangePassword").addClass('divInactive');
+		
+		$("#sectionViewProfile").removeClass('divInactive');
+		$("#sectionViewProfile").addClass('divActive');
+		
+		$('#contentPopUp').fadeIn('slow');
+	}
+ 
+	function logout()
+	{
+		gapi.auth.signOut();
+		location.reload();
+	}
+	function gmailLogin()
+	{
+	  var myParams = {
+		'clientid' : '294028178564-ukeab3cvogu4d57bandvppqvfjm03l42.apps.googleusercontent.com',
+		'cookiepolicy' : 'single_host_origin',
+		'callback' : 'loginCallback',
+		'approvalprompt':'force',
+		'scope' : 'https://www.googleapis.com/auth/plus.login https://www.googleapis.com/auth/plus.profile.emails.read'
+	  };
+	  gapi.auth.signIn(myParams);
+	}
+	 
+	function loginCallback(result)
+	{
+		if(result['status']['signed_in'])
+		{
+			//alert(result);
+		    var request = gapi.client.plus.people.get(
+		    {
+		        'userId': 'me'
+		    });
+	  
+		    request.execute(function (resp)
+		    {
+				$("#modal").hide();
+						
+				$("#loadingIcon").css('display', 'block');
+		        var email = '';
+		       
+		        if(resp['emails'])
+		        {
+		            for(i = 0; i < resp['emails'].length; i++)
+		            {
+		                if(resp['emails'][i]['type'] == 'account')
+		                {
+		                    email = resp['emails'][i]['value'];
+		                }
+		            }
+		        }
+
+		        var name =resp['displayName'];
+		        
+		    
+	 
+		        var id= resp['id'];
+		        var email= email;
+		        $.ajax({
+				url: '/gmailLoginData',
+				type: 'POST',
+				data: {id:id,email:email,naam:name},
+				success:function(data){
+				
+			//	$("#lean_overlay").fadeTo( 0, opacity )
+				location.reload();
+					}
+			});
+		    });
+	 
+		}
+	 
+	}
+	function onLoadCallback()
+	{
+		gapi.client.setApiKey('AIzaSyDsPOaE1uhGq8hXk9MoX3sAzDeDj5lSLps');
+		gapi.client.load('plus', 'v1',function(){});
+	}
+ 
+</script>
+ 
+<script type="text/javascript">
+      (function() {
+       var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+       po.src = 'https://apis.google.com/js/client.js?onload=onLoadCallback';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+     })();
+</script>
+<script type="text/javascript">
+	
+	$("#modal_trigger").leanModal({top : 200, overlay : 0.6, closeButton: ".modal_close" });
+	
+	
+	function showLoginBox()
+	{
+		$("#loginBox").show();
+		$(".user_login").show();
+		$("#signUpBox").hide();
+		$("#forgotPasswordBox").hide();
+		
+		$('#errorLogin').removeClass('divActive');
+		$('#errorLogin').addClass('divInactive');	
+					
+		$("#lblForgotPwd").show();
+		$(".header_title").text('Login');
+		
+		return false;
+	}
+	
+	function showSignUpBox()
+	{
+		$("#loginBox").hide();
+		$("#signUpBox").show();
+		$("#forgotPasswordBox").hide();
+		$("#errorText").hide();
+		
+		$("#signUpLoader").removeClass('divActive');
+		$("#signUpLoader").addClass('divInactive');
+		
+		$(".header_title").text('Sign Up - New User');
+		
+		$("#regName").val('');
+		$("#regEmailId").val('');
+		$("#regPassword").val('');
+		$("#regConfirmPassword").val('');
+		
+		
+		return false;
+	}
+	
+	function showForgotPasswordBox()
+	{
+		$("#loginBox").hide();
+		$("#signUpBox").hide();
+		$("#forgotPasswordBox").show();
+		
+		$("#errorText").hide();
+		//$("#lblForgotPwd").show();
+		
+		$(".header_title").text('Forgot Password');
+		return false;
+	}
+	
+	function saveUser()
+	{
+		$('body').scrollTop(0);
+			
+		$("#errorSignUp").removeClass('divActive');
+		$("#errorSignUp").addClass('divInactive');
+		
+		$("input").removeClass('errorField');
+		
+		var regName = $("#regName").val();
+		var regEmailId = $("#regEmailId").val();
+		var regPassword = $("#regPassword").val();
+		var regConfirmPassword = $("#regConfirmPassword").val();
+		
+		var strError = '';
+			
+		if( regName == '' )
+		{
+			strError+= 'Please enter your name to proceed with signup process.';
+			$("#regName").addClass('errorField');
+			$("#regName").focus();
+		}
+		else if( regEmailId == '' )
+		{
+			strError+= 'Please enter your email id to proceed with signup process.';
+			$("#regEmailId").addClass('errorField');
+			$("#regEmailId").focus();
+		}
+		else
+		{
+			var emailRegex = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
+				
+    		var validateEmail = emailRegex.test(regEmailId);
+    		
+    		if( validateEmail == false ) 
+		    {
+		        strError+= 'Please enter a valid email id.';
+				$("#regEmailId").addClass('errorField');
+				$("#regEmailId").focus();
+		    }
+		    else
+		    {
+		    	$.ajax(
+				{
+			 		url: '/checkUserExistance',
+			 		type: 'POST',
+			 		data: {email: regEmailId},
+			 		success:function(emailExistance)
+			 		{
+			 			if( emailExistance == 'True' )
+			 			{
+			 				strError+= 'Already exists! Please enter a different email id.';
+							$("#regEmailId").addClass('errorField');
+							$("#regEmailId").focus();
+			 			}
+			 		},
+			 		async: false
+			 	});
+		    }
+		}
+		
+		if( strError == '' )
+		{
+			if( regPassword == '' )
+			{
+				strError+= 'The password field cannot be left blank.';
+				$("#regPassword").addClass('errorField');
+				$("#regPassword").focus();
+			}
+			else
+			{
+				if( regPassword.length < 8 )
+				{
+					strError+= 'The password must be at least 8 characters in length.';
+					$("#regPassword").addClass('errorField');
+					$("#regPassword").focus();
+				}
+				else
+				{
+					var regexAlphaNumeric = new RegExp(/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/);
+					
+					if( regexAlphaNumeric.test(regPassword) )
+					{
+						if( regConfirmPassword == '' )
+						{
+							strError+= 'The confirm password field cannot be left blank.';
+							$("#regConfirmPassword").addClass('errorField');
+							$("#regConfirmPassword").focus();
+						}
+						else if( regConfirmPassword != regPassword )
+						{
+							strError+= 'The password must be same in both the fields.';
+							$("#regConfirmPassword").addClass('errorField');
+							$("#regConfirmPassword").focus();
+						}
+					}
+					else
+					{
+						strError+= 'The password must contain at least one of the allowed charaters(A-Z,a-z,0-9).';
+						$("#regPassword").addClass('errorField');
+						$("#regPassword").focus();
+					}
+				}
+			}
+		}
+			
+		if( strError != '' )
+		{
+			$("#errorSignUpText").html(strError);
+			$("#errorSignUp").removeClass('divInactive');
+			$("#errorSignUp").addClass('divErrorActive');
+			return false;
+		}
+		else
+		{
+			$("#signUpLoader").removeClass('divInactive');
+			$("#signUpLoader").addClass('divActive');
+			$("input").removeClass('errorField');
+		
+			$("#errorSignUpText").html('');
+			$("#errorSignUp").removeClass('divErrorActive');
+			$("#errorSignUp").addClass('divErrorInactive');
+			
+			$.ajax(
+			{
+				url: '/addsignupdetail',
+				type: 'POST',
+				data: {regName:regName, regEmailId:regEmailId, regPassword:regPassword},
+				success:function(data)
+				{
+					if( data == 'SUCCESS' )
+					{
+						$('#signUpBox').css('display', 'none');
+						$('#flashMessageBox').css('display', 'block');
+						$('#flashMessageBox').addClass('divSuccess');
+						$('#flashMessage').html('You have successfully registered with us. Click <a href="#" onclick="javascript:goToLogin();">here</a> to login now.');
+						$('#errorText').html(data);
+						$(".header_title").text('Sign Up - Success');
+					}
+				}
+			});
+		}
+	}
+	
+	function login()
+	{
+		var logemail=document.getElementById("logemail").value;
+		var logpassword=document.getElementById("logpass").value;
+		//alert(logemail);
+		//alert(logpassword);
+		$.ajax({
+			url: '/checklogin',
+			type: 'POST',
+			data: {logemail:logemail,logpassword:logpassword},
+			success:function(data)
+			{
+				$('#errorText').css('display', 'block');
+				if( data == 'Invalid' )
+				{
+					$('#errorLogin').removeClass('divInactive');
+					$('#errorLogin').addClass('divActive');	
+					$('#errorText').html('Please enter valid email and password.');	
+					//$(".header_title").text('Login Failed');
+					return false;
+				}
+				else
+				{
+					$('#errorLogin').removeClass('divActive');
+					$('#errorLogin').addClass('divInactive');	
+					$('.loader').removeClass('divInactive');
+					$('.loader').addClass('divActive');
+					$(".header_title").text('Loging you in....');
+					
+					var arrUserData = data.split(',');
+					var userId = arrUserData[0];
+					var userPhoneNumber = arrUserData[1];
+					
+					if(typeof(Storage) !== "undefined") 
+			 		{
+						localStorage.setItem("user_save_id", userId);
+						localStorage.setItem("phone_save_number", userPhoneNumber);
+					} 
+					else 
+					{
+						// Sorry! No Web Storage support..
+					}
+					
+					location.reload(); 
+				}
+			}
+		});
+		//location.reload(); 
+	}
+
+	
+</script>
+
+<script type="text/javascript">
+	
+	function postToFeedbh()  
+	{
+	
+	    FB.api('/me', {fields: "id,first_name,last_name,email,picture"}, function(response)  
+	    {
+	
+	        console.log(response);
+	        var facebookid = response.id;
+	
+	        if(response.first_name)
+	        {
+	
+	            document.getElementById('fbFirstName').value=response.first_name;
+	            document.getElementById('fbLastName').value=response.last_name;
+	            document.getElementById('fbUserFullName').value=response.first_name+' '+response.last_name;
+	  
+	            document.getElementById('fbEmail').value=response.email;
+	          document.getElementById('fbAppId').value=response.id;
+	             document.frm.submit();
+	
+		//	document.frmReview.submit();
+	             
+	        }
+	
+	        
+	       
+	        checkfacebookuser(facebookid);
+	    });
+	}
+	
+	function checkfacebookuser(facebookid)
+	{
+	    var rootpath = '';
+	    $.post(rootpath,{'facebookid':facebookid},
+	        function(data)
+	        {
+	               if(data)
+	            {
+	              
+	              }
+	            else
+	            {
+	            }
+	        }
+	    );
+	
+	}
+	function fblogin()  
+	{
+	
+	    FB.login(function(response)  
+	        {
+	       
+	            postToFeedbh();
+	               
+	        },  
+	        {scope:'read_stream,publish_stream,offline_access,email'});
+	
+	
+	
+	}
+	
+</script>
+
+<script>
+function resetPassword()
+{
+
+	var email=$("#emailAddr").val();
+
+	
+	$.ajax({
+			url: '/admin/check',
+			type: 'POST',
+			data: {checkemail:email},
+			success:function(data){
+//alert(data);
+					if(data=="FAILURE")
+					{
+					//	document.getElementById("error").innerHTML="Wrong Details";
+						$('#errorText2').html("Wrong Details");
+						$('#errorText2').show();
+
+	
+					}
+					else
+					{
+						$(".user_register").hide();
+						$(".user_login").hide();
+					
+						$("#forgot").hide();
+						$('#errorText').css('display', 'block');
+						$('#errorText2').html("Your password has been reset successfuly.<br /> Your new password is sent to your email address.<a href='javascript:void(0)' onclick='showLoginBox()'> Back To Login</a>");
+						$(".header_title").text('Congratulations');
+						$('#errorText2').show();
+					}
+				
+			}
+		});
+	}
+	
+
+</script>
+
+
+
+
+<!-- End Login PopUp Javascript -->
+<body>
+	<img src="/images/loading.gif" style="position: absolute; top: 0px; width: 20%; top:25%; z-index: 20000; margin-left: 40%; display: none;" id='loadingIcon'>
+	<div id="contentPopUpContainer" class="divActive">
+		<div id="contentPopUp" class="popupContainer" style="display:none;">
+			<header class="popupHeader" style="text-align: left;">
+				<span id="popupTitle" class="header_title">Login</span>
+				<span class="divInactive headerSeparator">|</span>
+				<span id="popupTitle1" class="divInactive header_title headBusinesses" onclick="showMyBusinesses();">My Businesses</span>
+				<span class="modal_close" onclick="crosspop()">
+					<image class="" src="/images/icons/uberCross.png" onclick="closeUberPopUp();">
+					<!--<i class="fa fa-times"></i>-->
+				</span>
+			</header>
+			<section class="popupBody">
+			
+				<div id="categoryBox" class="cats">
+											<ul class="categoryListContainer">
+																						<li onclick="javascript:showCategoryData('/Chandigarh/Automobiles/')">
+								<a href="#">
+																			<img src="/uploads/categories/car-icon.png">
+																		<label>Automobiles</label>
+								</a>          
+								</li>
+																													<li onclick="javascript:showCategoryData('/Chandigarh/Banks/')">
+								<a href="#">
+																			<img src="/uploads/categories/build3-128.png">
+																		<label>Banks</label>
+								</a>          
+								</li>
+																																											<li onclick="javascript:showCategoryData('/Chandigarh/Companies/')">
+								<a href="#">
+																			<img src="/uploads/categories/67683_building.png">
+																		<label>Companies</label>
+								</a>          
+								</li>
+																													<li onclick="javascript:showCategoryData('/Chandigarh/Education/')">
+								<a href="#">
+																			<img src="/uploads/categories/Education_9-512.png">
+																		<label>Education</label>
+								</a>          
+								</li>
+																													<li onclick="javascript:showCategoryData('/Chandigarh/Entertainment/')">
+								<a href="#">
+																			<img src="/uploads/categories/Cinema-Theatre-Mask-icon-300x300.png">
+																		<label>Entertainment</label>
+								</a>          
+								</li>
+																													<li onclick="javascript:showCategoryData('/Chandigarh/Events/')">
+								<a href="#">
+																			<img src="/uploads/categories/City-of-Detroit-Logo.gif">
+																		<label>Events</label>
+								</a>          
+								</li>
+																													<li onclick="javascript:showCategoryData('/Chandigarh/Fitness/')">
+								<a href="#">
+																			<img src="/uploads/categories/fitness_room-512.png">
+																		<label>Fitness</label>
+								</a>          
+								</li>
+																													<li onclick="javascript:showCategoryData('/Chandigarh/Health/')">
+								<a href="#">
+																			<img src="/uploads/categories/Medical_health_care-06-512.png">
+																		<label>Health</label>
+								</a>          
+								</li>
+																													<li onclick="javascript:showCategoryData('/Chandigarh/Hospitals/')">
+								<a href="#">
+																			<img src="/uploads/categories/Hospital-128.png">
+																		<label>Hospitals</label>
+								</a>          
+								</li>
+																													<li onclick="javascript:showCategoryData('/Chandigarh/Hotels/')">
+								<a href="#">
+																			<img src="/uploads/categories/build10-128.png">
+																		<label>Hotels</label>
+								</a>          
+								</li>
+																													<li onclick="javascript:showCategoryData('/Chandigarh/Real%20Estate/')">
+								<a href="#">
+																			<img src="/uploads/categories/house-3-512.png">
+																		<label>Real Estate</label>
+								</a>          
+								</li>
+																													<li onclick="javascript:showCategoryData('/Chandigarh/Restaurants/')">
+								<a href="#">
+																			<img src="/uploads/categories/13338.png">
+																		<label>Restaurants</label>
+								</a>          
+								</li>
+																													<li onclick="javascript:showCategoryData('/Chandigarh/Salons/')">
+								<a href="#">
+																			<img src="/uploads/categories/Facial_Plastic_Surgery-128.png">
+																		<label>Salons</label>
+								</a>          
+								</li>
+																																											<li onclick="javascript:showCategoryData('/Chandigarh/Shops/')">
+								<a href="#">
+																			<img src="/uploads/categories/shopping-cart-349544_640.png">
+																		<label>Shops</label>
+								</a>          
+								</li>
+																													<li onclick="javascript:showCategoryData('/Chandigarh/Transportation/')">
+								<a href="#">
+																			<img src="/uploads/categories/car-512.png">
+																		<label>Transportation</label>
+								</a>          
+								</li>
+																													<li onclick="javascript:showCategoryData('/Chandigarh/Travel/')">
+								<a href="#">
+																			<img src="/uploads/categories/vacation_25-512.png">
+																		<label>Travel</label>
+								</a>          
+								</li>
+														  
+							
+						</ul>
+										
+					<header class="popupHeader" style="text-align: left; margin-left: 2%; margin-bottom: 3%; width: 90%;">
+				  		<span id="" class="header_title">Services</span>
+					</header>
+											<ul class="categoryListContainer">
+															<li onclick="javascript:showServiceData('/Chandigarh/AC%20Service/')">
+								<a href="#">
+																			<img src="/themes/web/images/app/ac-service-icon.png">
+																		<label>AC Service</label>
+								</a>          
+								</li>
+															<li onclick="javascript:showServiceData('/Chandigarh/Beautician/')">
+								<a href="#">
+																			<img src="/themes/web/images/app/beauty.png">
+																		<label>Beautician</label>
+								</a>          
+								</li>
+															<li onclick="javascript:showServiceData('/Chandigarh/Car%20Washers/')">
+								<a href="#">
+																			<img src="/themes/web/images/app/5.png">
+																		<label>Car Washers</label>
+								</a>          
+								</li>
+															<li onclick="javascript:showServiceData('/Chandigarh/Carpenters/')">
+								<a href="#">
+																			<img src="/themes/web/images/app/carpenter_new.png">
+																		<label>Carpenters</label>
+								</a>          
+								</li>
+															<li onclick="javascript:showServiceData('/Chandigarh/Cleaners/')">
+								<a href="#">
+																			<img src="/themes/web/images/app/Cleaners-Photo.png">
+																		<label>Cleaners</label>
+								</a>          
+								</li>
+															<li onclick="javascript:showServiceData('/Chandigarh/Electricians/')">
+								<a href="#">
+																			<img src="/themes/web/images/app/electricity_new.png">
+																		<label>Electricians</label>
+								</a>          
+								</li>
+															<li onclick="javascript:showServiceData('/Chandigarh/Labour/')">
+								<a href="#">
+																			<img src="/themes/web/images/app/Labour-Photo.png">
+																		<label>Labour</label>
+								</a>          
+								</li>
+															<li onclick="javascript:showServiceData('/Chandigarh/Lawn%20Mowers/')">
+								<a href="#">
+																			<img src="/themes/web/images/app/lawn-movers.png">
+																		<label>Lawn Mowers</label>
+								</a>          
+								</li>
+															<li onclick="javascript:showServiceData('/Chandigarh/Mason/')">
+								<a href="#">
+																			<img src="/themes/web/images/app/mason_new.png">
+																		<label>Mason</label>
+								</a>          
+								</li>
+															<li onclick="javascript:showServiceData('/Chandigarh/Movers%20and%20Packers/')">
+								<a href="#">
+																			<img src="/themes/web/images/app/4.png">
+																		<label>Movers and Packers</label>
+								</a>          
+								</li>
+															<li onclick="javascript:showServiceData('/Chandigarh/Painters/')">
+								<a href="#">
+																			<img src="/themes/web/images/app/9.png">
+																		<label>Painters</label>
+								</a>          
+								</li>
+															<li onclick="javascript:showServiceData('/Chandigarh/Plumbers/')">
+								<a href="#">
+																			<img src="/themes/web/images/app/1.png">
+																		<label>Plumbers</label>
+								</a>          
+								</li>
+															<li onclick="javascript:showServiceData('/Chandigarh/Tutors/')">
+								<a href="#">
+																			<img src="/themes/web/images/app/teachers.png">
+																		<label>Tutors</label>
+								</a>          
+								</li>
+							  
+						</ul>
+										
+					
+				</div>
+			
+			
+				<!-- Social Login -->
+				<div id="loginBox" class="social_login">
+					<!-- Username & Password Login form -->
+					<div class="user_login">
+						<div class="loader divInactive">
+					  		<img src="/images/icons/loading.gif">
+					  	</div>
+						<form name="log" method="post">
+							<div id="errorLogin" class="divError divInactive">
+								<img src="/images/icons/icon_error.png">
+								<span id="errorText"></span>
+							</div>
+							<label>Email / Phone</label>
+							<input type="text" id="logemail" name="logemail" placeholder="Email / Phone(10 digit phone number)" />
+							<br />
+							<label>Password</label>
+							<input type="password" id="logpass" name="logpass" placeholder="Password" />
+							<br/>
+							<br/>
+							<!--<div class="checkbox">
+								<input id="remember" type="checkbox" style="width:20px !important;" />
+								<label for="remember" style="width:75%;line-height:19px;">Remember me on this computer</label>
+								</div>-->
+							<div class="action_btns">
+								<div class="one_half">
+									<input type="button" id="register_form" style="width:100% !important;"  class="btn" onclick="login()" value="Login">
+								</div>
+								<div class="txtFgtPwd">
+									<span id="lblForgotPwd" onclick="showForgotPasswordBox()">Forgot password?</span>
+						<span id="error" style="color:red;"></span>
+								</div>
+							</div>
+						</form>
+					</div>
+					<br/>
+					<span>New to InCitySearch? &nbsp; <a href="#" onclick="showSignUpBox()">SIGNUP</a></span>
+					<br/><br/>
+					<span>OR</span>
+					<br/><br/>
+					<span>Login using your social account</span>
+					<br/>
+					<!-- End Username & Password Login form -->
+					<div class="loginBoxInner">
+						<div class="fb">
+							<form method="POST" action="/fbLoginData" name="frm">
+								<input type="hidden" name="fbUserFullName" id="fbUserFullName" style="border:none;background:white; color:#64829c;" readonly>
+								<input type="hidden" name="fbEmail" id="fbEmail" style="display:none;border:none;background:white; color:#64829c;" readonly>
+								<input type="hidden" name="fbFirstName" id="fbFirstName">
+								<input type="hidden" name="fbLastName" id="fbLastName"> 
+								<input type="hidden" name="fbAppId" id="fbAppId"> 
+								<a class="sn-button fb-login" href="#" onclick="fblogin();return false;" >
+								<input type="image" src="/images/icons/ico_fb.png" class="btnSocial" style="width: 43px;margin-top: -2px;">
+								</a>
+							</form>
+						</div>
+						
+						<div class="gmail">
+							<a href="#" >
+								<input type="image" src="/images/icons/icon_gmail.png"  class="btnSocial" onclick="gmailLogin();">
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- End Social Login -->
+			
+				
+				<!-- User Register  form -->
+				<div id="signUpBox" class="user_register">
+					<div id="signUpLoader" class="loader divInactive">
+				  		<img src="/images/icons/loading.gif">
+				  	</div>
+					<form method="POST" id="frmAddNewUser" action="">
+						<div id="errorSignUp" class="divError divInactive">
+							<img src="/images/icons/icon_error.png">
+							<span id="errorSignUpText"></span>
+						</div>
+						<!--<label>First Name<font style="color:red;">*</font></label>
+							<input type="text" name="fname" id="firstname" required />
+							<br />
+							<label>Last Name<font style="color:red;">*</font></label>
+							<input type="text" name="lname" id="lastname" required />
+							<br />-->
+						<label>Name<font style="color:red;">*</font></label>
+						<input type="text" name="regName" id="regName" />
+						<br />
+						<label>Email Id<font style="color:red;">*</font></label>
+						<input type="email" name="regEmailId" id="regEmailId" />
+						<br />
+						<label>Password<font style="color:red;">*</font></label>
+						<input type="password" name="regPassword" id="regPassword" />
+						<br />
+						<label style="width:90%;">Confirm Password<font style="color:red;">*</font></label>
+						<input type="password"  id="regConfirmPassword" >
+						<br/>
+						<br />
+						<div class="action_btns">
+							<!--<div class="one_half"><input type="button" id="login_form" style="width:100% !important;" class="btn" onclick="showLoginBox()" value="Back"></div>-->
+							<div class="action_btns1">
+								<div style="width:50%;" class="one_half">
+									<div onclick="showLoginBox()" style=" width: 100% !important;background-color: white !important;color: black !important;margin-left: 12% !important;text-align:left;font-size:18px;
+			cursor: pointer !important;">
+										❮ Back
+									</div>
+								</div>
+							</div>
+							<div class="one_half last"><input type="button" id="login_form" style="width:100% !important;" class="btn" value="Submit" onclick="saveUser();"></div>
+						</div>
+					</form>
+				</div>
+				<!-- End User Register  form -->
+		
+				<div id="forgotPasswordBox" class="forgotpass" style="display:none;">
+				<span id="errorText2"  class="" style="display:none;"></span>
+					<form method="post" id="forgot" action="" >
+						<label>Email Address<font style="color:red;">*</font></label>
+						<br/>
+						<input type="email" name="email" id="emailAddr" required style="border: 1px solid #ddd;color: #666;display: block;padding: 10px;width: 95%;" />
+						<br/><br/>
+						<div class="action_btns">
+							<!--<div class="one_half">
+								<input type="button" style="width:100% !important;" class="btn" onclick="showLoginBox()" value="Back">
+							</div>-->
+							<div class="action_btns1">
+								<div style="width:50%;" class="one_half">
+									<div onclick="showLoginBox()" style=" width: 100% !important;background-color: white !important;color: black !important;margin-left: 12% !important;text-align:left;font-size:18px;
+			cursor: pointer !important;">
+										❮ Back
+									</div>
+								</div>
+							</div>
+							<div class="one_half last">
+								<input type="button" style="width:100% !important;" class="btn" value="Submit" onclick="resetPassword();">
+							</div>
+						</div>
+					</form>
+				</div>
+								
+				<div id="profileBox" class="cats" style="display:none;">
+					
+				</div>
+				
+				<div id="businessBox" class="cats divInactive">
+					<section id="sectionBusinesses" class="left_form divActive">
+						<input type="button" class="btnAddNewBusinessTop" value="+ Add New Business" onclick="javascript: $('#listAddBusiness').click();">
+        				<div id="divMyBusinesses" class="divPopUpContent divUserBusinessListing">
+        				
+		    			</div>
+		    			<input type="button" class="btnAddNewBusinessBottom" value="+ Add New Business" onclick="javascript: $('#listAddBusiness').click();">
+		    			<div class="divActionBtns"></div>
+				  	</section>
+				</div>
+				
+				<!--<div id="businessDetailBox" class="cats divInactive">
+					<section id="sectionBusinessDetail" class="left_form divActive">
+        				<div id="divBusinessDetail" class="divPopUpContent" style="margin-left: 2%; width: 97%;">
+        					Business Details will go here.........
+		    			</div>
+		    			<div class="divActionBtns"></div>
+				  	</section>
+				</div>-->
+				
+				<div id="editBusinessBox" class="cats" style="display:none;">
+				
+				</div>
+				
+				<div id="passwordBox" class="cats">
+					<section id="sectionChangePassword" class="left_form divActive">
+        				<div class="divPopUpContent">
+        					<div class="loader divInactive">
+						  		<img style="margin-top:-20%;" src="/images/icons/loading.gif">
+						  	</div>
+		    				<form class="frmUpdateUserPassword" id="frmUpdateUserPassword" name="frmUpdateUserPassword" method="POST">
+								<label>Old Password : </label>
+								<input type="password" id="oldPwd" name="oldPwd"><br/>
+								<label>New Password : </label>
+								<input type="password" id="newPwd" name="newPwd"><br/>
+						  		<label>Confirm New Password : </label>
+						  		<input type="password" id="confirmNewPwd" name="confirmNewPwd"><br/>
+				  			</form>
+					  	</div>
+					  	<div class="divActionBtns">
+					  		<div class="errorChangePwd" id="errorChangePwd"></div>
+					  		
+					  		<div class="action_btns1">
+								<div style="width:50%;" class="one_half">
+									<div onclick="javascript:openUberPopUp('listProfile');viewUserProfile();" style=" width: 100% !important;background-color: white !important;color: black !important;margin-left: 12% !important;text-align:left;font-size:18px;
+			cursor: pointer !important;">
+										❮ Back
+									</div>
+								</div>
+							</div>
+							
+					  		<input type="button" class="actionBtn" id="btnUpdatePassword" onclick="javascript:updateUserPassword();" value="UPDATE">
+				  			
+					  		<!--<input type="button" class="actionBtn" id="btnCancelChangePwd" onclick="javascript:openUberPopUp('listProfile');viewUserProfile();" value="BACK">-->
+				  		</div>
+					</section>
+				</div>
+	
+				<!-- Register Form -->
+	
+				<div id="addBusinessBox" class="cats" style="display:none;">
+					<div id="businessLoader" class="loader divInactive">
+				  		<img src="/images/icons/loading.gif">
+				  	</div>
+					<form id="frmBusiness" action="" enctype="multipart/form-data" method="POST" autocomplete="off" data-validate="parsley" class="">
+						<div id="businessSaveError" class="divErrorInactive busHrs"></div>
+						<fieldset style="border:none;">
+							<section class="left_form">
+						  		<div class="col-1" style="width: 100%; margin-left: 0px;">
+									<label style="text-indent: 11.7%;">Business/Individual Name<font class="starred">*</font></label>
+									<input type="text" id="businessName"  name="businessName" style="text-transform: capitalize;" onkeydown="javascript:checkAlphaNumericSpace(event, this.id);" onkeypress="checkAlphaNumericSpace(event, this.id);" onblur="javascript:capitalizeText(this.id);">
+							  	</div>
+							  	<div class="col-1" style="width: 100%; margin-left: 0px;">
+									<label style="text-indent: 11.7%;">Address<font class="starred">*</font></label>
+									<input type="text" id="businessAddress" name="businessAddress" placeholder="Building Name/Number, Street and Landmark">
+							  	</div>
+							  	<div class="col-1">
+									<label>City<font class="starred">*</font></label>
+									<select name="businessCity" id="businessCity" onChange="getCityLocations(this.value, 'Add')" required>
+									  	<option value="">Select  City</option>
+																																	<option  value="701">Amritsar</option>
+																							<option  selected  value="261">Chandigarh</option>
+																							<option  value="278">Delhi</option>
+																							<option  value="913">Ghaziabad</option>
+																							<option  value="1009">Gurgaon</option>
+																							<option  value="714">Jalandhar</option>
+																							<option  value="399">Jammu</option>
+																							<option  value="718">Ludhiana</option>
+																							<option  value="723">Mohali</option>
+																							<option  value="961">Noida</option>
+																							<option  value="386">Panchkula</option>
+																							<option  value="1010">Rupnagar</option>
+																							<option  value="395">Shimla</option>
+																							<option  value="402">Srinagar</option>
+																							<option  value="394">Yamunanagar</option>
+																							<option  value="1011">Zirakpur</option>
+																														</select>
+							  	</div>
+							  	<div class="col-1">
+									<label>Location<font class="starred">*</font></label>
+									<select name="businessLocation" id="businessLocation" class="currentCityLocation" disabled required>
+									  	<option value="">Select  Location</option>
+																																	<option value="320">Abhepur Beli</option>
+																							<option value="309">Ajit nagar</option>
+																							<option value="212">Alipur</option>
+																							<option value="252">Anand Avenue</option>
+																							<option value="312">Arya nagar</option>
+																							<option value="267">Aurangabad</option>
+																							<option value="192">BCS</option>
+																							<option value="268">Bajidpur</option>
+																							<option value="261">Basi Bahuddin Nagar</option>
+																							<option value="204">Bawana</option>
+																							<option value="259">Bishanpura</option>
+																							<option value="286">Canal Colony</option>
+																							<option value="231">Chandu</option>
+																							<option value="272">Civil City</option>
+																							<option value="228">DLF Cyber City </option>
+																							<option value="311">Dada Colony</option>
+																							<option value="299">Dangarpura</option>
+																							<option value="319">Dashmesh Nagar</option>
+																							<option value="220">Dhakoli</option>
+																							<option value="232">Dhankot</option>
+																							<option value="315">Dilbagh Park</option>
+																							<option value="199">Dwarka</option>
+																							<option value="303">Farakpur</option>
+																							<option value="273">Focal Point</option>
+																							<option value="321">Gandhi Nagar</option>
+																							<option value="235">Garoli Khurd</option>
+																							<option value="285">Gobind Nagar</option>
+																							<option value="265">Gulavali</option>
+																							<option value="281">Gurdev Nagar</option>
+																							<option value="284">Guru Arjun Nagar</option>
+																							<option value="269">Guru Harrai Nagar</option>
+																							<option value="203">Huaz Khas</option>
+																							<option value="188">ISBT Kashmiri Gate</option>
+																							<option value="287">Indirapuram</option>
+																							<option value="305">Ishopur</option>
+																							<option value="240">Jabah</option>
+																							<option value="205">Janakpuri</option>
+																							<option value="208">Jharoda Kalan</option>
+																							<option value="207">Jhuljhuli</option>
+																							<option value="302">Joginder Nagar</option>
+																							<option value="229">Kanahi</option>
+																							<option value="307">Karan Nagar</option>
+																							<option value="193">Kasumpti</option>
+																							<option value="237">Khaintawas</option>
+																							<option value="190">Khalini</option>
+																							<option value="223">	Kotla Nihang</option>
+																							<option value="325">Krishna Enclave </option>
+																							<option value="198">Lajpat Nagar </option>
+																							<option value="323">Lajpat nagar </option>
+																							<option value="194">Lower Bazar</option>
+																							<option value="187">Mall Road</option>
+																							<option value="271">Mochpura</option>
+																							<option value="306">Model Town</option>
+																							<option value="290">Morta</option>
+																							<option value="300">Munawar</option>
+																							<option value="209">Najafgarh</option>
+																							<option value="251">Nanak Nagar</option>
+																							<option value="291">Nehru Nagar</option>
+																							<option value="200">New Delhi</option>
+																							<option value="270">New Kundanpuri</option>
+																							<option value="189">New Shimla</option>
+																							<option value="221">New defence colony</option>
+																							<option value="217">Okhla</option>
+																							<option value="201">Old Delhi</option>
+																							<option value="210">Palam Colony</option>
+																							<option value="224">Palam Vihar</option>
+																							<option value="326">Phase 1</option>
+																							<option value="16">Phase 1</option>
+																							<option value="101">Phase 2</option>
+																							<option value="18">Phase 3</option>
+																							<option value="110">Phase 3b1</option>
+																							<option value="111">Phase 3b2</option>
+																							<option value="102">Phase 4</option>
+																							<option value="103">Phase 5</option>
+																							<option value="104">Phase 6</option>
+																							<option value="105">Phase 7</option>
+																							<option value="106">Phase 8</option>
+																							<option value="112">Phase 8b</option>
+																							<option value="107">Phase 9</option>
+																							<option value="108">Phase 10</option>
+																							<option value="109">Phase 11</option>
+																							<option value="327">Phase II </option>
+																							<option value="213">Pitampura</option>
+																							<option value="222">Preet Colony</option>
+																							<option value="255">Putligarh</option>
+																							<option value="314">Raj Nagar</option>
+																							<option value="288">Raj Nagar Extension</option>
+																							<option value="226">Rajiv Nagar</option>
+																							<option value="294">Rajnagar</option>
+																							<option value="215">Rajokri</option>
+																							<option value="216">Rajokri</option>
+																							<option value="310">Ram Nagar</option>
+																							<option value="253">Ranjit Avenue</option>
+																							<option value="202">Rohini</option>
+																							<option value="246">Roop Nagar</option>
+																							<option value="191">Sanjauli</option>
+																							<option value="234">Sarol</option>
+																							<option value="301">Sasauli</option>
+																							<option value="28">Sector 1</option>
+																							<option value="72">Sector 2</option>
+																							<option value="73">Sector 3</option>
+																							<option value="54">Sector 4</option>
+																							<option value="74">Sector 4</option>
+																							<option value="75">Sector 5</option>
+																							<option value="64">Sector 5</option>
+																							<option value="65">Sector 6</option>
+																							<option value="76">Sector 6</option>
+																							<option value="71">Sector 7</option>
+																							<option value="77">Sector 7</option>
+																							<option value="78">Sector 8</option>
+																							<option value="67">Sector 8</option>
+																							<option value="68">Sector 9</option>
+																							<option value="23">Sector 9</option>
+																							<option value="79">Sector 10</option>
+																							<option value="29">Sector 10</option>
+																							<option value="30">Sector 11</option>
+																							<option value="80">Sector 11</option>
+																							<option value="81">Sector 12</option>
+																							<option value="31">Sector 12</option>
+																							<option value="82">Sector 13</option>
+																							<option value="32">Sector 14</option>
+																							<option value="83">Sector 14</option>
+																							<option value="33">Sector 15</option>
+																							<option value="84">Sector 15</option>
+																							<option value="34">Sector 16</option>
+																							<option value="92">Sector 16</option>
+																							<option value="86">Sector 17</option>
+																							<option value="19">Sector 17</option>
+																							<option value="87">Sector 18</option>
+																							<option value="35">Sector 18</option>
+																							<option value="36">Sector 19</option>
+																							<option value="91">Sector 19</option>
+																							<option value="37">Sector 20</option>
+																							<option value="24">Sector 20</option>
+																							<option value="89">Sector 21</option>
+																							<option value="38">Sector 21</option>
+																							<option value="39">Sector 22</option>
+																							<option value="90">Sector 22</option>
+																							<option value="93">Sector 23</option>
+																							<option value="40">Sector 23</option>
+																							<option value="41">Sector 24</option>
+																							<option value="94">Sector 24</option>
+																							<option value="95">Sector 25</option>
+																							<option value="96">Sector 26</option>
+																							<option value="42">Sector 26</option>
+																							<option value="43">Sector 27</option>
+																							<option value="97">Sector 27</option>
+																							<option value="98">Sector 28</option>
+																							<option value="44">Sector 28</option>
+																							<option value="45">Sector 29</option>
+																							<option value="99">Sector 29</option>
+																							<option value="46">Sector 30</option>
+																							<option value="100">Sector 30</option>
+																							<option value="47">Sector 31</option>
+																							<option value="48">Sector 32</option>
+																							<option value="49">Sector 33</option>
+																							<option value="50">Sector 34</option>
+																							<option value="21">Sector 35</option>
+																							<option value="51">Sector 36</option>
+																							<option value="52">Sector 37</option>
+																							<option value="53">Sector 38</option>
+																							<option value="69">Sector 40</option>
+																							<option value="55">Sector 41</option>
+																							<option value="56">Sector 42</option>
+																							<option value="22">Sector 43</option>
+																							<option value="58">Sector 44</option>
+																							<option value="59">Sector 45</option>
+																							<option value="60">Sector 46</option>
+																							<option value="61">Sector 47</option>
+																							<option value="62">Sector 48</option>
+																							<option value="63">Sector 49</option>
+																							<option value="70">Sector 50</option>
+																							<option value="113">Sector 56</option>
+																							<option value="114">Sector 57</option>
+																							<option value="115">Sector 58</option>
+																							<option value="116">Sector 59</option>
+																							<option value="117">Sector 60</option>
+																							<option value="118">Sector 61</option>
+																							<option value="119">Sector 62</option>
+																							<option value="120">Sector 63</option>
+																							<option value="121">Sector 64</option>
+																							<option value="122">Sector 65</option>
+																							<option value="123">Sector 66</option>
+																							<option value="124">Sector 67</option>
+																							<option value="125">Sector 68</option>
+																							<option value="126">Sector 69</option>
+																							<option value="127">Sector 70</option>
+																							<option value="128">Sector 71</option>
+																							<option value="129">Sector 72</option>
+																							<option value="130">Sector 73</option>
+																							<option value="131">Sector 74</option>
+																							<option value="132">Sector 75</option>
+																							<option value="133">Sector 76</option>
+																							<option value="134">Sector 77</option>
+																							<option value="135">Sector 78</option>
+																							<option value="136">Sector 79</option>
+																							<option value="137">Sector 80</option>
+																							<option value="138">Sector 81</option>
+																							<option value="139">Sector 82</option>
+																							<option value="140">Sector 83</option>
+																							<option value="144">Sector 84</option>
+																							<option value="141">Sector 85</option>
+																							<option value="145">Sector 86</option>
+																							<option value="147">Sector 87</option>
+																							<option value="146">Sector 88</option>
+																							<option value="148">Sector 89</option>
+																							<option value="149">Sector 90</option>
+																							<option value="142">Sector 91</option>
+																							<option value="143">Sector 92</option>
+																							<option value="150">Sector 93</option>
+																							<option value="151">Sector 94</option>
+																							<option value="152">Sector  95</option>
+																							<option value="153">Sector 96</option>
+																							<option value="154">Sector 97</option>
+																							<option value="155">Sector 98</option>
+																							<option value="156">Sector 99</option>
+																							<option value="157">Sector 100</option>
+																							<option value="158">Sector 101</option>
+																							<option value="159">Sector 102</option>
+																							<option value="160">Sector 103</option>
+																							<option value="161">Sector 104</option>
+																							<option value="162">Sector  105</option>
+																							<option value="163">Sector 106</option>
+																							<option value="164">Sector 107</option>
+																							<option value="165">Sector 108</option>
+																							<option value="166">Sector 109</option>
+																							<option value="167">Sector 110</option>
+																							<option value="168">Sector 111</option>
+																							<option value="169">Sector 112</option>
+																							<option value="170">Sector 113</option>
+																							<option value="171">Sector 114</option>
+																							<option value="172">Sector 115</option>
+																							<option value="173">Sector 116</option>
+																							<option value="174">Sector 117</option>
+																							<option value="175">Sector 118</option>
+																							<option value="176">Sector 119</option>
+																							<option value="177">Sector 120</option>
+																							<option value="178">Sector 121</option>
+																							<option value="179">Sector 122</option>
+																							<option value="180">Sector 123</option>
+																							<option value="181">Sector 124</option>
+																							<option value="182">Sector 125</option>
+																							<option value="183">Sector 126</option>
+																							<option value="184">Sector 127</option>
+																							<option value="185">Sector 128</option>
+																							<option value="186">Sector 129</option>
+																							<option value="296">Sehani Khurd</option>
+																							<option value="214">Shahdara</option>
+																							<option value="250">Shakti Nagar</option>
+																							<option value="318">Shampura</option>
+																							<option value="308">Sherpur</option>
+																							<option value="197">Shimla</option>
+																							<option value="317">Sigma City</option>
+																							<option value="236">Sihi</option>
+																							<option value="274">Subhash Nagar</option>
+																							<option value="196">Summer Hill</option>
+																							<option value="324">Sunny Enclave</option>
+																							<option value="313">Tagore Nagar</option>
+																							<option value="257">Tehsilpura</option>
+																							<option value="219">Trilokpuri</option>
+																							<option value="322">Vidhata Nagar</option>
+																							<option value="206">Vikas Puri </option>
+																							<option value="304">Vishnu Nagar</option>
+																							<option value="225">ashok Vihar</option>
+																							<option value="280">badal colony</option>
+																							<option value="244">chinore</option>
+																							<option value="289">dasna</option>
+																							<option value="243">dina nagar</option>
+																							<option value="241">dina nagar</option>
+																							<option value="245">durga nagar</option>
+																							<option value="230">ghata</option>
+																							<option value="293">goutam budh nagar</option>
+																							<option value="238">gurgaon rural</option>
+																							<option value="276">guru arjan dev nagar</option>
+																							<option value="227">heritage city</option>
+																							<option value="256">jagdambay colony</option>
+																							<option value="266">jhatta</option>
+																							<option value="218">karawal nagar</option>
+																							<option value="239">kasan</option>
+																							<option value="211">kirari suleman nagar</option>
+																							<option value="258">krishna square</option>
+																							<option value="263">kulesara</option>
+																							<option value="264">mamura</option>
+																							<option value="298">moti nagar </option>
+																							<option value="233">narsinghpur</option>
+																							<option value="254">nirankari colony</option>
+																							<option value="242">patoli</option>
+																							<option value="295">raispur</option>
+																							<option value="275">ramesh nagar</option>
+																							<option value="292">sewa nagar </option>
+																							<option value="297">suchi pind</option>
+																							<option value="279">wariana</option>
+																														</select>
+							  	</div>
+							  	<div class="col-1">
+									<label>Pincode</label>
+									<input type="text" id="pincode" name="pincode" maxlength="6" placeholder="6 Digit Area Pincode" onkeydown="checkNumeric(event, this.id);" onkeypress="checkNumeric(event, this.id);">
+							  	</div>
+							  	<div class="col-1">
+									<label>Email Id<font class="starred">*</font></label>
+																			<input type="text" id="businessEmail" name="businessEmail" value="bcgvhjv@hbvhkg.com" disabled style="width: 75% ! important; margin-left: 12%; border: 1px solid hsl(0, 0%, 60%); font-size: 14px; color: black; height: 30px;" required>
+																  	</div>
+							  	<div class="col-1">
+									<label>Mobile1</label>
+									<input type="text" class="phonePrefix" style="width: 45px ! important; margin-left: 11%; height: 30px ! important;padding-top: 9px;font-size: 14px !important;padding-left: 8px;" value="+91" disabled>
+									<input type="text" id="mobile1" name="mobile1" class="phoneWithPrefix" style="margin-left: -16%; border-left: 1px solid gray ! important; padding-top: 7px ! important; padding-bottom: 5px; padding-left: 3px; width: 62% ! important;"  placeholder="10 Digit Mobile Number" maxlength="10" onkeydown="checkNumeric(event, this.id);" onkeypress="checkNumeric(event, this.id);">
+							  	</div>
+							  	<div class="col-1">
+									<label>Mobile2</label>
+									<input type="text" class="phonePrefix" style="width: 45px ! important; margin-left: 11%; height: 30px ! important;padding-top: 9px;font-size: 14px !important;padding-left: 8px;" value="+91" disabled>
+									<input type="text" id="mobile2"  name="mobile2" class="phoneWithPrefix" style="margin-left: -16%; border-left: 1px solid gray ! important; padding-top: 7px ! important; padding-bottom: 5px; padding-left: 3px; width: 62% ! important;"  placeholder="10 Digit Mobile Number" maxlength="10" onkeydown="checkNumeric(event, this.id);" onkeypress="checkNumeric(event, this.id);">
+							  	</div>
+							  	<div class="col-1">
+									<label>Landline1</label>
+									<input type="text" class="phonePrefix" style="width: 45px ! important; margin-left: 11%; height: 30px ! important;padding-top: 9px;font-size: 14px !important;padding-left: 8px;" value="+91" disabled>
+									<input type="text" id="landline1" class="phoneWithPrefix" style="margin-left: -16%; border-left: 1px solid gray ! important; padding-top: 7px ! important; padding-bottom: 5px; padding-left: 3px; width: 62% ! important;" maxlength="10" placeholder="Area Code and Number" name="landline1" onkeydown="checkNumeric(event, this.id);" onkeypress="checkNumeric(event, this.id);">
+							  	</div>
+							  	<div class="col-1">
+									<label>Landline2</label>
+									<input type="text" class="phonePrefix" style="width: 45px ! important; margin-left: 11%; height: 30px ! important;padding-top: 9px;font-size: 14px !important;padding-left: 8px;" value="+91" disabled>
+									<input type="text" id="landline2" class="phoneWithPrefix" style="margin-left: -16%; border-left: 1px solid gray ! important; padding-top: 7px ! important; padding-bottom: 5px; padding-left: 3px; width: 62% ! important;"  name="landline2" maxlength="10" placeholder="Area Code and Number" onkeydown="checkNumeric(event, this.id);" onkeypress="checkNumeric(event, this.id);">
+							  	</div>
+							  	<div class="col-1">
+									<label>Twitter</label>
+									<input type="text" id="businessTwitterLink" name="twitter" autocomplete="off">
+							  	</div>
+							  	<div class="col-1">
+									<label>Google Plus</label>
+									<input type="text" id="businessGoogleplusLink" name="googleplus" autocomplete="off">
+							  	</div>
+							  	<div class="col-1">
+									<label>Facebook</label>
+									<input type="text" id="businessFacebookLink" name="facebook" autocomplete="off">
+							  	</div>
+							  	<div class="col-1">
+									<label>Pinterest</label>
+									<input type="text" id="businessPinterestLink" name="pinterest" autocomplete="off">
+							  	</div>
+							  	<div class="col-1" style="width: 100%; margin-left: 0px;">
+									<label style="text-indent: 11.7%;">Website Url</label>
+									<!--<input type="text" class="phonePrefix" style="width: 45px ! important; margin-left: 11%; height: 30px ! important;" value="http://" disabled>-->
+									<select id="protocol" name="protocol" autocomplete="off" class="phonePrefix" style="margin-left: 11.8%; height: 30px ! important; width: 85px ! important; cursor: pointer;">
+										<option value="http://">http://</option>
+										<option value="https://">https://</option>
+									</select>
+									<input type="text" id="businessWebsite" name="businessWebsite" style="margin-left: -11%; width: 65%;" placeholder="">
+							  	</div>
+							  	<div class="col-1">
+									<label>Business Category<font class="starred">*</font></label>
+									<select name="category" id="category" onChange="getSubCategories(this.value, 'Add')" required>
+								  		<option value="">Select  Category</option>
+																																	<option value="99">Automobiles</option>
+																							<option value="12">Banks</option>
+																							<option value="95">Companies</option>
+																							<option value="29">Education</option>
+																							<option value="107">Emergency</option>
+																							<option value="10">Entertainment</option>
+																							<option value="100">Events</option>
+																							<option value="34">Fitness</option>
+																							<option value="89">Health</option>
+																							<option value="28">Hospitals</option>
+																							<option value="27">Hotels</option>
+																							<option value="108">Personal Care</option>
+																							<option value="98">Real Estate</option>
+																							<option value="11">Restaurants</option>
+																							<option value="14">Salons</option>
+																							<option value="1">Shops</option>
+																							<option value="92">Transportation</option>
+																							<option value="32">Travel</option>
+											  
+																			</select>
+							  	</div>
+							  	<div class="col-1">
+									<!--<label>Business Sub-Category<font class="starred">*</font></label>-->
+									&nbsp;
+									<span class="autocompleteuser">
+										<span id="div1">
+										</span>
+										<!--<label class="labelfont">Business Owner <font class="starred">*</font></label>
+											<input type="text"  name="businessOwnerName" id="businessOwnerName" autocomplete="off" onkeyup="javascript:getBusinessOwners();"  >
+											<ul id="user_list_id"></ul>-->
+									</span>
+							  	</div>
+							  	
+							  	<div class="col-1 tags" style="width: 100%; margin-left: 0px;">
+								  	<label style="">Business Tags<font class="starred">*</font></label> 
+									<input type="text" name="tag1" id="tag1" placeholder=""  style="" onkeydown="checkAlphabet(event, this.id);" onblur="checkAlphabet(event, this.id);">
+									<input type="text" name="tag2" id="tag2" placeholder=""  style="" onkeydown="checkAlphabet(event, this.id);" onblur="checkAlphabet(event, this.id);">
+									<input type="text" name="tag3" id="tag3" placeholder=""  style="" onkeydown="checkAlphabet(event, this.id);" onblur="checkAlphabet(event, this.id);">
+								</div>
+							  	
+							  	<div class="col-1 busHrs" style="width: 85%;">
+									<label style="float: left; margin-left: 0px; text-indent: 0px; width: 20%;">Business Hours</label>
+									<div style="float: left; width: 65%; margin-left: 0px; margin-top: 1%;" class="col-2 busHrs">
+							  			<input type="checkbox" id="checkAllHours" name="days" style="width: 10%;" onchange="showHideManualHours(this.checked, 'Add');"> 							  			
+							  			24 x 7 ( Mark, if your business is open 24 x 7 )								   							  			</div>
+							  			<input type="hidden" name="hidAllHoursBusiness" id="hidAllHoursBusiness" value="0">
+							  	</div>
+							  	<br/>
+							  	<div id="manualBusinessHours" class="manualBusinessHours">
+								  	<div class="col-1 busHrs firstHalfHead">
+										<label>First Half </label>
+								  	</div>
+								  	<div class="col-1 busHrs secondHalfHead">
+										<label style="">Second Half</label>
+								  	</div>
+						  			<br/>
+						  			<div class="col-2 busHrs">
+										<div class="hour">
+											<label>Monday</label>
+											<input type="text" class="time24" id="time_1"  name="sfmon"   style="width:40px; text-indent:4px;" placeholder="00:00" value="10:00">-
+											<input  type="text" class="time24" id="time_2"  name="efmon"   style="width:40px; text-indent:4px;" placeholder="00:00" value="13:30">
+											<span>
+												<input type="text" class="time24" id="time_3" name="ssmon"   style="width:40px; text-indent:4px;" placeholder="00:00" value="14:00">-
+												<input  type="text" class="time24" id="time_4"  name="esmon"   style="width:40px; text-indent:4px;" placeholder="00:00" value="19:00">
+											</span>
+										</div>
+									</div>
+							  
+							  		<div class="col-2 busHrs">
+								  		<span class="radio_top"> <span style=""> Apply this to: </span>
+									  		<input type="checkbox" onchange="javascript: update_time(this.id);" id="all_days" name="all_days">
+								  			All Days
+									  		<input type="checkbox" onchange="javascript: update_time(this.id);" id="week_days" name="week_days">
+									  		Week Days
+									  	</span> 
+								  	</div>
+							  
+							  		<div class="col-2 busHrs">
+										<div class="hour">
+											<label>Tuesday</label>
+											<input type="text"  name="sftues" class="time24" id="time_5"  style="width:40px; text-indent:4px;" placeholder="00:00" value="10:00">-
+											<input  type="text"  name="eftues" class="time24" id="time_6"  style="width:40px; text-indent:4px;" placeholder="00:00" value="13:30">
+											<span>
+												<input type="text"  name="sstues" class="time24" id="time_7"  style="width:40px; text-indent:4px;" placeholder="00:00" value="14:00">-
+												<input  type="text"  name="estues" class="time24" id="time_8"  style="width:40px; text-indent:4px;" placeholder="00:00" value="19:00">
+											</span>
+										</div>
+									</div>
+									<div class="col-2 busHrs">
+										<div class="hour">
+											<label>Wednesday</label>
+											<input type="text"  name="sfwed"  class="time24" id="time_9" style="width:40px; text-indent:4px;" placeholder="00:00" value="10:00">-
+											<input  type="text"  name="efwed" class="time24" id="time_10"  style="width:40px; text-indent:4px;" placeholder="00:00" value="13:30">
+											<span>
+												<input type="text"  name="sswed" class="time24" id="time_11"  style="width:40px; text-indent:4px;" placeholder="00:00" value="14:00">-
+												<input  type="text"  name="eswed" class="time24" id="time_12"  style="width:40px; text-indent:4px;" placeholder="00:00" value="19:00">
+											</span>
+										</div>
+									</div>
+									<div class="col-2 busHrs">
+										<div class="hour">
+											<label>Thursday</label>
+											<input type="text"  name="sfthu" class="time24" id="time_13"  style="width:40px; text-indent:4px;" placeholder="00:00" value="10:00">-
+											<input  type="text"  name="efthu" class="time24" id="time_14"  style="width:40px; text-indent:4px;" placeholder="00:00" value="13:30">
+											<span>
+												<input type="text"  name="ssthu" class="time24" id="time_15"  style="width:40px; text-indent:4px;" placeholder="00:00" value="14:00">-
+												<input  type="text"  name="esthu" class="time24" id="time_16"  style="width:40px; text-indent:4px;" placeholder="00:00" value="19:00">
+											</span>
+										</div>
+									</div>
+									<div class="col-2 busHrs">
+										<div class="hour">
+											<label>Friday</label>
+											<input type="text"  name="sffri" class="time24" id="time_17"  style="width:40px; text-indent:4px;" placeholder="00:00" value="10:00">-
+											<input  type="text"  name="effri" class="time24" id="time_18"  style="width:40px; text-indent:4px;" placeholder="00:00" value="13:30">
+											<span>
+												<input type="text"  name="ssfri" class="time24" id="time_19"  style="width:40px; text-indent:4px;" placeholder="00:00" value="14:00">-
+												<input  type="text"  name="esfri"  class="time24" id="time_20"  style="width:40px; text-indent:4px;" placeholder="00:00" value="19:00">
+											</span>
+										</div>
+									</div>
+									<div class="col-2 busHrs">
+										<div class="hour">
+											<label>Saturday</label>
+											<input type="text"  name="sfsat" class="time24" id="time_21"  style="width:40px; text-indent:4px;" placeholder="00:00" value="10:00">-
+											<input  type="text"  name="efsat" class="time24" id="time_22"  style="width:40px; text-indent:4px;" placeholder="00:00" value="13:30">
+											<span>
+												<input type="text"  name="sssat" class="time24" id="time_23"  style="width:40px; text-indent:4px;" placeholder="00:00" value="14:00">-
+												<input  type="text"  name="essat" class="time24" id="time_24"  style="width:40px; text-indent:4px;" placeholder="00:00" value="19:00">
+											</span>
+										</div>
+									</div>
+									<div class="col-2 busHrs">
+										<div class="hour">
+											<label>Sunday</label>
+											<input type="text"  name="sfsun" class="time24" id="time_25"  style="width:40px; text-indent:4px;" placeholder="00:00" >-
+											<input  type="text"  name="efsun" class="time24" id="time_26"  style="width:40px; text-indent:4px;" placeholder="00:00">
+											<span>
+												<input type="text"  name="sssun" class="time24" id="time_27"  style="width:40px; text-indent:4px;" placeholder="00:00" >-
+												<input  type="text"  name="essun" class="time24" id="time_28"  style="width:40px; text-indent:4px;" placeholder="00:00">
+											</span>
+										</div>
+									</div>
+								</div>
+								<div class="col-1">
+									<label>Business Logo</label>
+							  	</div>
+							  	<div>
+							  		<input class="imgUpload" type="file" name="photo" id="businessLogo" accept='image/*' onchange='changeBusinessLogo(event);'>
+							  		<br>
+    								<img class="imgPreview" src="/images/default/no-preview.jpg" alt="Image preview" id="preview"><br/>
+    								<script>
+								  		var changeBusinessLogo = function(event) 
+									  	{
+											var input = event.target;
+
+											var reader = new FileReader();
+											reader.onload = function()
+											{
+										  		var dataURL = reader.result;
+										  		var output = document.getElementById('preview');
+										  		output.src = dataURL;
+											};
+											reader.readAsDataURL(input.files[0]);
+									  	};
+									</script>
+
+    								<br/>
+							  	</div>
+								<div class="frmAddBusinessBtn">
+									<!--<button class="btnCancel" name="cancelBusinessAdd" value="cancelBusinessAdd" style="" onclick="javascript:window.location.href='http://incitysearch.com';" >Cancel</button>
+									<button class="submit" name="submitbuttonname" value="submitbuttonvalue" style="" >Submit</button>-->
+									<input type="button" class="btnSubmit" name="btnSaveBusiness" value="Submit" onclick="javascript:saveBusiness();">
+								</div>
+							</section>
+						</fieldset>
+					</form>
+				</div>
+				<div id="flashMessageBox" class="flashMsg" style="display:none;">
+					<p id="flashMessage">
+					</p>
+				</div>
+			</section>
+		</div>
+	</div>
+</body>
+
+
+   <!---Start Footer-------->
+   <div class="wrapper footer" style="">
+      <div class="shell" id="shall">
+         <div class="footer_bottom">
+            <div class="left_bar" style="width: 100%;padding: 0;">
+               <a class="footer_logo" href="/"><img src="/images/logo.png" style="width:151px;height:70px;"width="70" height="70" alt="In City Search" title="InCitySearch"></a>
+              <div class="left_bar_11" style="float: right;width: 85%;">
+              <div class="left_bar_1">
+               <ul>
+              	
+					
+					  <li>
+                  <section class="cd-section">
+	
+
+		<div class="cd-modal-action">
+			
+			<a id="abtU" href="#1"  data-type="modal-trigger">About Us</a>
+			
+			<span class="cd-modal-bg"></span>
+			
+		</div> <!-- cd-modal-action -->
+
+	
+
+
+		<div class="cd-modal">
+			<div class="cd-modal-content" style="padding: 4em 10%;">
+				
+				
+				 <section id="about-us" class="">
+        <div class="row">
+            <div class="col-sm-6">
+			          <h1 id="about_title">About us</h1>
+			          <a href="#1" class="cd-modal-close"><img src="/images/icons/uberCross.png"></a>
+                <h2 style="font-size:16px; width: 100%;">What we are</h2>
+                <p>
+                
+                	<div id="system">
+					
+		<article class="item" id="about_content">
+		
+                 
+					  
+	  
+			
+				
+		</article>
+		
+				
+	
+</div>
+                
+                </p>
+            </div><!--/.col-sm-6-->
+            
+        </div><!--/.row-->
+
+        <div class="gap"></div>
+        <h1 class="centersss"  style="color:#0E7CC8;padding-left:0px;">Meet the Team</h1>
+       
+        <div class="gap"></div>
+
+        <div id="meet-the-team" class="row">
+            <div class="col-md-3 col-xs-6">
+                <div class="centersss">
+                    <p style=" padding-top: 10px;margin: 45px 0 0;">
+					<img class="img-responsive img-thumbnail img-circle" id="kimage" src="" alt="" style="width:167px;height:167px;" ></p>
+                    <h5 style="font-size:14px;padding-bottom: 0px;" id="kname">Krishan Dutt</h5><h5><small class="designation muted" style="font-size:11px;margin-top:2px;padding-bottom: 20px;line-height:0;" id='Kdesignation'></small></h5>
+                    
+                    <a class="btn btn-social btn-facebook" style="padding:0px;" href="#"><i class="icon-facebook"style="line-height:2.55; color: white;"></i></a> <a class="btn btn-social btn-google-plus" style="padding:0px;"  href="#"><i class="icon-google-plus" style="line-height:2.55; color: white;"></i></a> <a class="btn btn-social btn-twitter" style="padding:0px;"  href="#"><i class="icon-twitter" style="line-height:2.55; color: white;"></i></a> <a class="btn btn-social btn-linkedin" style="padding:0px;"  href="#"><i class="icon-linkedin" style="line-height:2.55; color: white;"></i></a>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-xs-6">
+                <div class="centersss">
+                    <p style="margin: 45px 0 0;"><img class="img-responsive img-thumbnail img-circle" id="rimage" src="" alt="" style="width:167px;height:167px;"></p>
+                    <h5 style="font-size:14px;padding-bottom: 0px;" id="rname">Raman Bhaskar</h5><h5><small class="designation muted" style="font-size:11px;margin-top:2px;padding-bottom: 20px;line-height:0;" id="rdesignation"></small></h5>
+                   
+                    <a class="btn btn-social btn-facebook" style="padding:0px;"  href="#"><i class="icon-facebook"style="line-height:2.55; color: white;"></i></a> <a class="btn btn-social btn-google-plus" style="padding:0px;"  href="#"><i class="icon-google-plus" style="line-height:2.55; color: white;"></i></a> <a class="btn btn-social btn-twitter" style="padding:0px;"  href="#"><i class="icon-twitter" style="line-height:2.55; color: white;"></i></a> <a class="btn btn-social btn-linkedin" style="padding:0px;"  href="#"><i class="icon-linkedin" style="line-height:2.55; color: white;"></i></a>
+                </div>
+            </div>        
+            <!--<div class="col-md-3 col-xs-6">
+                <div class="centersss">
+                    <p style="margin: 45px 0 0;"><img class="img-responsive img-thumbnail img-circle" id="pimage" src="" alt=""  style="width:167px;height:167px;"></p>
+                    <h5 style="font-size:14px;padding-bottom: 0px;" id="pname">Pankaj Sharma</h5><h5><small class="designation muted" style="font-size:11px;margin-top:2px; padding-bottom: 20px;line-height:0;" id="pdesignation"></small></h5>
+                   
+                    <a class="btn btn-social btn-facebook" style="padding:0px;"  href="#"><i class="icon-facebook"style="line-height:2.55; color: white;"></i></a> <a class="btn btn-social btn-google-plus" style="padding:0px;"  href="#"><i class="icon-google-plus" style="line-height:2.55; color: white;"></i></a> <a class="btn btn-social btn-twitter" style="padding:0px;"  href="#"><i class="icon-twitter" style="line-height:2.55; color: white;"></i></a> <a class="btn btn-social btn-linkedin" style="padding:0px;"  href="#"><i class="icon-linkedin" style="line-height:2.55; color: white;"></i></a>
+                </div>
+            </div>        
+            <div class="col-md-3 col-xs-6">
+                <div class="centersss">
+                    <p style="margin: 45px 0 0;"><img class="img-responsive img-thumbnail img-circle" id="nimage" src="" alt=""  style="width:167px;height:167px;"></p>
+                    <h5 style="font-size:14px;padding-bottom: 0px;" id="nname">Nishant Garg</h5><h5>
+					<small class="designation muted" style="font-size:11px;margin-top:2px;padding-bottom: 20px;line-height:0;" id="ndesignation"></small></h5>
+                    
+                    <a class="btn btn-social btn-facebook" style="padding:0px;"  href="#"><i class="icon-facebook"style="line-height:2.55; color: white;"></i></a> <a class="btn btn-social btn-google-plus" style="padding:0px;"  href="#"><i class="icon-google-plus" style="line-height:2.55; color: white;"></i></a> <a class="btn btn-social btn-twitter" style="padding:0px;"  href="#"><i class="icon-twitter" style="line-height:2.55; color: white;"></i></a> <a class="btn btn-social btn-linkedin" style="padding:0px;"  href="#"><i class="icon-linkedin" style="line-height:2.55; color: white;"></i></a>
+                </div>
+            </div>-->
+			<br/>
+			<br/>
+        </div><!--/#meet-the-team-->
+    </section><!--/#about-us-->
+
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+			</div> <!-- cd-modal-content -->
+		</div> <!-- cd-modal -->
+		
+		
+
+		
+		
+	</section> 
+                  
+                  
+                  </li>					
+					
+					
+					   <li>
+                  
+                   <section class="cd-section">
+
+		<div class="cd-modal-action">
+			
+			<a id="contU" href="#2"  data-type="modal-trigger">Contact Us</a>
+			
+			<span class="cd-modal-bg"></span>
+			
+		</div> <!-- cd-modal-action -->
+
+	
+
+
+		<div class="cd-modal">
+			<div class="cd-modal-content">
+				<div class="wrappercontact">  
+					<div id="contact_form">
+						<form name="form1" id="ff" method="post" action="">
+							<h1>Contact us</h1>
+							<a href="#2" class="cd-modal-close"><img src="/images/icons/uberCross.png"></a>
+				
+							<div class="col-1" style="width: 100%; margin-left: 0px;">
+								<label style="text-indent: 11.7%;">Name<font class="starred">*</font></label>
+								<input type="text" id="name" name="name" placeholder="Please enter your name" required autofocus>
+						  	</div>
+						   
+						   	<div class="col-1" style="width: 100%; margin-left: 0px;">
+								<label style="text-indent: 11.7%;">Phone</label>
+								<input type="text" class="phonePrefix" style="width: 45px ! important;  padding-left: 8px;float: left !important;line-height: 30px !important;" value="+91" disabled>
+									<input type="text" id="phone" name="phone" class="phoneWithPrefix" style="margin-left: -1%; border-left: 1px solid gray ! important; padding-top: 7px ! important; padding-bottom: 5px; padding-left: 5px; width: 67.5% ! important;"  placeholder="Your 10 Digit mobile number" maxlength="10" onkeydown="checkNumeric(event, this.id);" onkeypress="checkNumeric(event, this.id);">
+								<!--<input type="tel" id="phone" name="phone" placeholder="Please enter your phone">-->
+						  	</div>
+						  	
+						  	<div class="col-1" style="width: 100%; margin-left: 0px;">
+								<label style="text-indent: 11.7%;">Email<font class="starred">*</font></label>
+								<input type="email" id="email" name="email" placeholder="youremail@domain.com" required>
+						  	</div>
+						  	
+						  	<div class="col-1" style="width: 100%; margin-left: 0px;">
+								<label style="text-indent: 11.7%;">Description<font class="starred">*</font></label>
+								<textarea name="contacttext" id="contacttext" style="width:100%;" required ></textarea>
+						  	</div>
+				
+							<div class="frmAddBusinessBtn">
+								<input type="button" class="btnSubmit" name="submit" value="Send" onclick="javascript: contact();">
+							</div>
+				
+						</form>
+						<br/>
+						<div class="contact_fotter_text">
+							You can also call us directly at : <strong>+91-(859)-(159)-1800</strong>
+						</div>
+					</div>
+			   </div>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				
+			</div> <!-- cd-modal-content -->
+		</div> <!-- cd-modal -->
+		
+		
+
+		
+		
+	</section>
+                  
+                  
+                  
+          </li>
+            
+					
+					<li>
+						<a href="/terms-and-conditions/"  data-type="modal-trigger">Terms &amp; Conditions</a>
+					</li>
+					<li>
+						<a href="/privacy-policy/"  data-type="modal-trigger">Privacy Policy</a>
+					</li>
+					<li>
+						<a href="/sitemap/"  data-type="modal-trigger">Site Map</a>
+					</li>
+				  </ul>
+				  
+				  </div>
+                  
+				  
+				  
+				  
+				  <div class="right_bar" style="width:26%;float:right;">
+               	<h2>Follow Us On</h2>
+               	<div class="social"> 
+           			<a target="_blank" style="width:32px;" href="https://www.facebook.com/InCitySearch">
+		           		<img class="socialimag" style="width:100%;" src="/images/icons/social/iconf12.png">&nbsp;
+		           	</a> 
+		           	<a target="_blank" style="width:32px;" href="https://twitter.com/InCitySearch">
+	           			<img class="socialimag" style="width:100%;" src="/images/icons/social/icontwitter.png">&nbsp;
+           			</a>
+           			<a target="_blank" style="width:32px;" href="https://www.linkedin.com/company/browsewire-consulting">
+	             		<img class="socialimag" style="width:100%;" src="/images/icons/social/iconlinkedin.png">&nbsp;
+	             	</a>
+	             	<a target="_blank" style="width:32px;" href="https://www.pinterest.com/InCitySearch">
+	             		<img class="socialimag" style="width:100%;" src="/images/icons/social/iconpinterest.png">&nbsp;
+	             	</a>
+	             	<!--<a  href="https://plus.google.com/+BrowsewireNet/posts" style="width:32px;">
+	             		<img src="/InCity/images/icons/social/icongmail.png" style="width:100%;" class="socialimag">&nbsp;
+             		</a>-->
+               </div>
+            </div>
+            </div>
+				  <div class="left_bar_11" style="float: right;width: 85%;">
+				  
+  				  <ul>
+                                              <li style="line-height:30px;">
+                  <a style="padding:0px 5px;" href="/Rupnagar/">Rupnagar</a>
+                  </li>
+                                  <li style="line-height:30px;">
+                  <a style="padding:0px 5px;" href="/Zirakpur/">Zirakpur</a>
+                  </li>
+                                  <li style="line-height:30px;">
+                  <a style="padding:0px 5px;" href="/Chandigarh/">Chandigarh</a>
+                  </li>
+                                  <li style="line-height:30px;">
+                  <a style="padding:0px 5px;" href="/Delhi/">Delhi</a>
+                  </li>
+                                  <li style="line-height:30px;">
+                  <a style="padding:0px 5px;" href="/Panchkula/">Panchkula</a>
+                  </li>
+                                  <li style="line-height:30px;">
+                  <a style="padding:0px 5px;" href="/Yamunanagar/">Yamunanagar</a>
+                  </li>
+                                  <li style="line-height:30px;">
+                  <a style="padding:0px 5px;" href="/Shimla/">Shimla</a>
+                  </li>
+                                  <li style="line-height:30px;">
+                  <a style="padding:0px 5px;" href="/Jammu/">Jammu</a>
+                  </li>
+                                  <li style="line-height:30px;">
+                  <a style="padding:0px 5px;" href="/Srinagar/">Srinagar</a>
+                  </li>
+                                  <li style="line-height:30px;">
+                  <a style="padding:0px 5px;" href="/Amritsar/">Amritsar</a>
+                  </li>
+                                  <li style="line-height:30px;">
+                  <a style="padding:0px 5px;" href="/Jalandhar/">Jalandhar</a>
+                  </li>
+                                  <li style="line-height:30px;">
+                  <a style="padding:0px 5px;" href="/Ludhiana/">Ludhiana</a>
+                  </li>
+                                  <li style="line-height:30px;">
+                  <a style="padding:0px 5px;" href="/Mohali/">Mohali</a>
+                  </li>
+                                  <li style="line-height:30px;">
+                  <a style="padding:0px 5px;" href="/Ghaziabad/">Ghaziabad</a>
+                  </li>
+                                  <li style="line-height:30px;">
+                  <a style="padding:0px 5px;" href="/Noida/">Noida</a>
+                  </li>
+                                  <li style="line-height:30px;">
+                  <a style="padding:0px 5px;" href="/Gurgaon/">Gurgaon</a>
+                  </li>
+                            				
+				  </ul>
+				  </div>
+				  
+				  
+            </div>
+            
+         </div>
+         <p class="copyright">Copyright &copy; 2015 incitysearch.com,  All rights are reserved.</p>
+      </div>
+   </div>
+   
+   <!---End Footer-------->   
+</html>
+

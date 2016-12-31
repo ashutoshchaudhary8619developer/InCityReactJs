@@ -1,0 +1,426 @@
+.left_sidebar_mobileapp
+{
+float:left;
+width:100%;
+}
+
+.app_technains_card {
+    cursor: pointer;
+}
+.app_card
+{
+	overflow: hidden;
+    margin: 0px 0px;
+    border-radius: 2px;
+    background-color: #fff;
+	float:left;
+	 width: 100%;
+}
+
+.app_custom_row {
+    width: 100%;
+    float: left;
+    padding: 0px;
+   
+}
+.app_col_19_custom
+{
+width: 22%;
+    margin-left: 2.50%;
+    float: left;
+    padding-top: 0;
+    height: 150px;
+   /* border: 1px solid #E4E4E4;*/
+}
+.app_brand_content
+{
+/*background-color: #f1f1f1;*/
+width:100%;
+float:left;
+cursor: pointer;
+}
+.app_service_cover
+{
+    padding-top: 28px;
+    width: 100%;
+    text-align: center;
+}
+.app_align_center {
+    text-align: center;
+
+    text-transform: capitalize;
+  
+	border-bottom:none !important;
+	padding-top:10px;
+	padding-bottom:28px !important;
+	color:#2C3E50 !important;
+	font-size: 14px;
+    font-weight: 700;
+
+}
+.app_select_btn
+{
+   border: 1px solid #EAA528 !important;
+    bottom: 15px;
+    font-size: 15px;
+    line-height: 0px;
+ 
+    margin-top: 15px;
+    padding: 0;
+    position: relative;
+   
+    float: left;
+
+    border-color: #EAA528;
+    background-color: #EAA528;
+    color: #F0F0F0;
+    border-radius: 30px;
+    width: 90%;
+    margin-left: 4.5%;
+	display:none;
+	}
+	.app_radio_select
+	{
+	color: white;
+    /* margin-left: -5px; */
+    text-align: center;
+    line-height: 1.5;
+    margin-left: 20px;
+	text-align: center;
+    line-height: 1.5;
+    margin-left: 24px;
+	}
+	
+
+
+.app_btn-close{
+  color: @gray-light;
+  font-size: 30px;
+  text-decoration: none;
+  position: absolute; right: 5px; top: 0;
+  
+  &:hover{
+     color: darken(@gray-light, 10%);
+  }
+  
+}
+
+.app_sel {
+    width: 96%;
+    float: left;
+	padding-left: 2%;
+}
+.app_child_selection
+{
+width: 94%;
+float: left;
+margin-left: 3%;
+height:26px;
+}
+.job_label {
+    width: 94%;
+    float: left;
+    text-align: left;
+    margin-left: 3%;
+	color:black;
+	font-size:14px;
+	padding-bottom: 5px;
+}
+
+.app_popUpInnerDiv {
+   background: none repeat scroll 0 0 #fff;
+    height: 70% !important;
+	
+    left: 25%;
+    position: fixed;
+    top: 20%;
+    width: 50%;
+   /* box-shadow: 2px 2px 5px rgba(68, 68, 68, 0.6);*/
+   border:solid 1px #bdbdbd;
+	
+}
+.app_popupHeader2 {
+         border-bottom: 1px solid #ddd;
+    font-weight: bold;
+    margin-left: 5%;
+    padding: 10px 20px;
+    position: relative;
+    width: 85%;
+	text-align:left;
+	margin-top:3%;
+	
+}
+.app_popupHeader2 .modal_close {
+
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 15px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.app_comment
+{
+height:100px;color:black;width: 94%;
+}
+
+.button.button-custom {
+    border-color: #EAA528;
+    background-color: #EAA528;
+    color: #F0F0F0;
+    border-radius: 30px;
+    text-transform: uppercase;
+	    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 94% !important;
+	margin-left:3%;
+}
+.app_row {
+	    display: flex;
+    width: 95%;
+	}
+	.app_col-50 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 50%;
+    -moz-box-flex: 0;
+    -moz-flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.app_technains_card {
+    overflow: hidden;
+    margin: 5px 10px;
+    border-radius: 2px;
+ /*   background-color: #f1f1f1;*/
+	padding-top: 1px;
+    padding-bottom: 1px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.app_technains_info_card {
+    overflow: hidden;
+    margin: 5px 10px;
+    border-radius: 2px;
+   
+	padding-top: 1px;
+    padding-bottom: 1px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+	    margin-top: 60px;
+    overflow: visible;
+}
+.app_technains_review_card
+{
+ overflow: hidden;
+    margin: 5px 10px;
+    border-radius: 2px;
+ 
+	padding-top: 1px;
+    padding-bottom: 1px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+
+    overflow: visible;
+}
+.item.item-avatar.ratethem {
+    width: 70%;
+    float: left;
+}
+
+.app_tech_price_list
+{
+float:left;
+padding:14px;
+}
+.arrow-right {
+	width: 0; 
+	height: 0; 
+	border-top: 60px solid transparent;
+	border-bottom: 60px solid transparent;
+	
+	border-left: 60px solid green;
+}
+
+.app_wrap_avatar > img {
+       border-radius: 50%;
+    bottom: 40px;
+    height: auto;
+    position: relative;
+    width: 17%;
+    left: 5%;
+}
+
+
+
+.fontsforweb_fontid_12950 {
+    font-family: 'proximanovalight' !important;
+	float: right;
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 10px;
+    background: #F27911;
+    color: #fff;
+    position: relative;
+    bottom: 18px;
+}
+.review_avg
+{
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+.review_descrip
+{
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+/* jssor slider arrow navigator skin 12 css */
+            /*
+            .jssora12l                  (normal)
+            .jssora12r                  (normal)
+            .jssora12l:hover            (normal mouseover)
+            .jssora12r:hover            (normal mouseover)
+            .jssora12l.jssora12ldn      (mousedown)
+            .jssora12r.jssora12rdn      (mousedown)
+            */
+            .jssora12l, .jssora12r {
+                display: block;
+                position: absolute;
+                /* size of arrow element */
+                width: 30px;
+                height: 46px;
+                cursor: pointer;
+                background: url(../images/a12.png) no-repeat;
+                overflow: hidden;
+            }
+            .jssora12l { background-position: -16px -37px; }
+            .jssora12r { background-position: -75px -37px; }
+            .jssora12l:hover { background-position: -136px -37px; }
+            .jssora12r:hover { background-position: -195px -37px; }
+            .jssora12l.jssora12ldn { background-position: -256px -37px; }
+            .jssora12r.jssora12rdn { background-position: -315px -37px; }
+			
+			.arrow-down {
+	    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    position: absolute;
+    margin-top: -4px;
+    border-top: 20px solid black;
+    left: 46px;
+}
+
+.app_img_width
+{
+width:50px;height:auto;
+}
+
+
+
+
+
+
+.default-theme .calendar .cell .day-number
+{
+	padding-bottom: 10px;
+}
+.default-theme .calendar .cell.selected .day-number {
+padding-bottom: 10px;
+}
+.range-calendar .calendar .cell.selected .day.ferial, .calendar .cell.ui-selecting day.ferial
+{
+background-color: #E3E3E3;
+}
+.range-calendar .calendar .cell.selected.last {
+	background-color: #E3E3E3;
+}
+.default-theme .calendar .cell.selected .day-number {
+background-color: #E3E3E3;
+}
+.range-calendar .calendar .cell.selected .day, .calendar .cell.ui-selecting day {
+background-color: #E3E3E3;
+}
+.default-theme .range-bar
+{
+	background: none repeat scroll 0 0 #8fb741;
+}
+
+.selected-class-name {
+  color: red !important;
+}
+.back_grey
+{
+background:#E3E3E3;
+	margin: 0 0 0 5px;
+	width: 83px;
+}
+ul.timeslot-selector {
+	padding: 0;
+	list-style: none;
+	margin: 0;
+	width: 94%;
+	margin-left: 3%;
+}
+.timeslot-selector li {
+	float: left;
+	text-align: center;
+	width: 23%;
+	color: #fff;
+}
+ul.timeslot-selector input[type=radio] {
+	display: none;
+}
+input[name="AppointmentTimeSlot"]:checked ~ label {
+	border:1px solid #EAA528!important;
+	color: #EAA528;
+}
+ul.timeslot-selector label {
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: normal !important;
+	border: 1px solid transparent;
+	padding: 2px 0;
+
+	display: block;
+	width: 100%;
+	margin: 0;
+}
+a.tooltips {
+  position: relative;
+  display: inline;
+}
+a.tooltips span {
+  position: absolute;
+  width:140px;
+  color: #FFFFFF;
+  background: #000000;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  visibility: hidden;
+  border-radius: 6px;
+}
+a.tooltips span:after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  right: 50%;
+  margin-top: 0px;
+  width: 0; height: 0;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+  border-top: 8px solid #000000;
+}
+a:hover.tooltips span {
+	visibility: visible;
+	opacity: 0.8;
+	left: -14px;
+	top: 0px;
+	margin-top: -45px;
+	margin-left: 0px;
+	z-index: 999;
+	width: 90px;
+}
+
+
